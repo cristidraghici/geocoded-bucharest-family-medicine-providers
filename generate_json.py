@@ -10,6 +10,9 @@ df = pd.read_excel(input_file, sheet_name=sheet_name)
 # Filter out rows with null latitude and longitude
 filtered_df = df.dropna(subset=['latitude', 'longitude'])
 
+# Get the column headers
+column_headers = df.columns.tolist()
+
 # Initialize a list to hold JSON entities
 json_entities = []
 
@@ -17,14 +20,7 @@ json_entities = []
 for index, row in filtered_df.iterrows():
     entity = {
         "title": row['Nume medic de familie'],
-        "description": [
-            f"Contract: {row['Nr. Contract']}",
-            f"Denumire furnizor: {row['Denumire furnizor']}",
-            f"Telefon: {row['Telefon']}",
-            f"E-mail: {row['E-mail']}",
-            f"Adresa punct de lucru: {row['Adresa punct de lucru']}",
-            f"Parsed Address: {row['parsed_address']}"
-        ],
+        "description": [f"{header}: {row[header]}" for header in column_headers[0:] if header not in ['Nume medic de familie', 'parsed_address', 'latitude', 'longitude']],
         "latitude": row['latitude'],
         "longitude": row['longitude']
     }
