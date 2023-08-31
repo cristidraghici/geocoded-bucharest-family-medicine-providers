@@ -13,15 +13,20 @@ def extract_street_name_and_number(address):
     address = re.compile("nr", flags=re.I).sub(", nr", address)
 
     # ensure we have the proper prefix for the street
-    address = re.sub(r"((?:Calea|Cal)\s|(?:Cal\.))", 'Calea ', address, flags=re.I)
-    address = re.sub(r"((?:Piata|Pta)\s|(?:Pta\.))", 'Piata ', address, flags=re.I)
-    address = re.sub(r"((?:Drumul)\s)", 'Drumul ', address, flags=re.I)
-    address = re.sub(r"((?:Strada|Str)\s|(?:Str\.|Stra\.))", 'Strada ', address, flags=re.I)
-    address = re.sub(r"((?:Bulevardul|Bulevard|Bd|Bld|B-dul)\s|(?:Bd\.|Bld\.))", 'Bulevardul ', address, flags=re.I)
-    address = re.sub(r"((?:Soseaua|Sos)\s|(?:Sos\.))", 'Soseaua ', address, flags=re.I)
-    address = re.sub(r"((?:Splaiul|Spl)\s|(?:Spl\.))", 'Splaiul ', address, flags=re.I)
-    address = re.sub(r"((?:Aleea)\s|(?:Al\.))", 'Aleea ', address, flags=re.I)
-    address = re.sub(r"((?:Intarea|Int|Intr)\s|(?:Int\.|Intr\.))", 'Intrarea ', address, flags=re.I)
+    streetTypeRegexList = [
+        [r"((?:Calea|Cal)\s|(?:Cal\.))", 'Calea'],
+        [r"((?:Piata|Pta)\s|(?:Pta\.))", 'Piata'],
+        [r"((?:Drumul)\s)", 'Drumul'],
+        [r"((?:Strada|Str)\s|(?:Str\.|Stra\.))", 'Strada'],
+        [r"((?:Bulevardul|Bulevard|Bd|Bld|B-dul)\s|(?:Bd\.|Bld\.))", 'Bulevardul'],
+        [r"((?:Soseaua|Sos)\s|(?:Sos\.))", 'Soseaua'],
+        [r"((?:Splaiul|Spl)\s|(?:Spl\.))", 'Splaiul'],
+        [r"((?:Aleea)\s|(?:Al\.))", 'Aleea'],
+        [r"((?:Intarea|Int|Intr)\s|(?:Int\.|Intr\.))", 'Intrarea']
+    ]
+
+    for regex in streetTypeRegexList:
+        address = re.sub(regex[0], f'{regex[1]} ', address, flags=re.I)
 
     # ensure we have the name for the number properly set
     address = re.sub(r"((?:Numarul|Nr)\s|(?:Nr\.))", 'Numarul ', address, flags=re.I)
