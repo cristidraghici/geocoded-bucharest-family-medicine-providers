@@ -4,6 +4,7 @@ import shutil
 import os
 import pandas as pd
 from geopy.geocoders import Nominatim
+from unidecode import unidecode
 import json
 
 import utils
@@ -83,8 +84,8 @@ if args.json:
     # Create JSON entities
     for index, row in filtered_df.iterrows():
         entity = {
-            "title": row[json_title_column],
-            "description": [f"{header}: {row[header]}" for header in column_headers[0:] if header not in [json_title_column, 'parsed_address', 'latitude', 'longitude']],
+            "title": unidecode(row[json_title_column]),
+            "description": [f"{header}: {unidecode(row[header])}" for header in column_headers[0:] if header not in [json_title_column, 'parsed_address', 'latitude', 'longitude']],
             "latitude": row['latitude'],
             "longitude": row['longitude']
         }
