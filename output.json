@@ -72,6 +72,18 @@
         "longitude": 26.1299697
     },
     {
+        "title": "PIRNACU MIHAELA",
+        "description": [
+            "Nr. Contract: A0016",
+            "Denumire furnizor: CMI PIRNACU MIHAELA",
+            "Telefon: 0771716054",
+            "E-mail: mihaelapster@gmail.com",
+            "Adresa punct de lucru: Strada Drumul Taberei 124-126, Sector 6"
+        ],
+        "latitude": 44.4170608,
+        "longitude": 26.0276018
+    },
+    {
         "title": "SPINEANU LACRAMIOARA",
         "description": [
             "Nr. Contract: A0017",
@@ -94,6 +106,18 @@
         ],
         "latitude": 44.40208215,
         "longitude": 26.0568944183507
+    },
+    {
+        "title": "NEICU IRINA",
+        "description": [
+            "Nr. Contract: A0024",
+            "Denumire furnizor: CMI NEICU IRINA",
+            "Telefon: 021.316.22.43 ",
+            "E-mail: irina_neicu2007@yahoo.com",
+            "Adresa punct de lucru: Str. Prof. Grigore Cobalcescu nr. 2, Sect. 1"
+        ],
+        "latitude": 44.4374178,
+        "longitude": 26.0875957
     },
     {
         "title": "GHEORDUNESCU MIHAELA ELENA",
@@ -612,6 +636,18 @@
         "longitude": 26.1275619
     },
     {
+        "title": "NITA CAMELIA",
+        "description": [
+            "Nr. Contract: A0137",
+            "Denumire furnizor: CMI NITA CAMELIA - PUNCT DE LUCRU",
+            "Telefon: 0213226025, 0722880844",
+            "E-mail: cnita71@gmail.com",
+            "Adresa punct de lucru: Str.Nicolae Caranfil nr.85A, et.1, sect.1"
+        ],
+        "latitude": 44.4833838,
+        "longitude": 26.0919319
+    },
+    {
         "title": "GHITA AUGUSTA GABRIELA",
         "description": [
             "Nr. Contract: A0138",
@@ -646,6 +682,18 @@
         ],
         "latitude": 44.4214285,
         "longitude": 26.0834868
+    },
+    {
+        "title": "OLARU ALEXANDRA",
+        "description": [
+            "Nr. Contract: A0141",
+            "Denumire furnizor: CMI OLARU ALEXANDRA",
+            "Telefon:  0216272444",
+            "E-mail: drolaru.alexandra@gmail.com",
+            "Adresa punct de lucru: Str Sold. Marin Savu 27, Sect 2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
     },
     {
         "title": "PATRASCU DANIELA GEORGETA",
@@ -684,6 +732,18 @@
         "longitude": 26.0408459
     },
     {
+        "title": "BUDULEA MARY DIANA",
+        "description": [
+            "Nr. Contract: A0150",
+            "Denumire furnizor: CMI BUDULEA MARY DIANA",
+            "Telefon: 0213411101",
+            "E-mail: dr.budulea.diana@gmail.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "UTAN RODICA",
         "description": [
             "Nr. Contract: A0152",
@@ -694,6 +754,18 @@
         ],
         "latitude": 44.4804915,
         "longitude": 26.0429916
+    },
+    {
+        "title": "CIOMU DIANA MIHAELA",
+        "description": [
+            "Nr. Contract: A0158",
+            "Denumire furnizor: CMI CIOMU DIANA MIHAELA",
+            "Telefon: 0722309251",
+            "E-mail: diamed_57@yahoo.com",
+            "Adresa punct de lucru: Str. Drumul Taberei nr. 29, bl. F2, sc. 5, ap. 76, Sect.6"
+        ],
+        "latitude": 44.423296,
+        "longitude": 26.0450725
     },
     {
         "title": "GOMOIU ELENA",
@@ -708,6 +780,18 @@
         "longitude": 26.0151202
     },
     {
+        "title": "DINULESCU GEORGE",
+        "description": [
+            "Nr. Contract: A0162",
+            "Denumire furnizor: CMI DINULESCU GEORGE",
+            "Telefon: 0213400592",
+            "E-mail: george_dinulescu@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "GRIGORESCU RALUCA ANA",
         "description": [
             "Nr. Contract: A0167",
@@ -718,6 +802,18 @@
         ],
         "latitude": 44.4535839,
         "longitude": 26.098234
+    },
+    {
+        "title": "STEFANESCU SILVIA",
+        "description": [
+            "Nr. Contract: A0169",
+            "Denumire furnizor: CMI STEFANESCU SILVIA",
+            "Telefon: 0213321144",
+            "E-mail: silviastefanescu1958@gmail.com",
+            "Adresa punct de lucru: Str. Spatar Preda Buzescu Nr. 34, Sect. 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
     },
     {
         "title": "NANIU SEVASTITA",
@@ -732,6 +828,30 @@
         "longitude": 26.1194854
     },
     {
+        "title": "NEGREA RODICA",
+        "description": [
+            "Nr. Contract: A0172",
+            "Denumire furnizor: CMI NEGREA RODICA",
+            "Telefon: 0722878888",
+            "E-mail: rodica.negrea@gmail.com",
+            "Adresa punct de lucru: Bd Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "COCAU VIORICA",
+        "description": [
+            "Nr. Contract: A0173",
+            "Denumire furnizor: CMI COCAU VIORICA",
+            "Telefon: 0213401537",
+            "E-mail: cocauviorica@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "MORAR CARMEN",
         "description": [
             "Nr. Contract: A0174",
@@ -742,6 +862,18 @@
         ],
         "latitude": 44.4349953,
         "longitude": 26.0253700871122
+    },
+    {
+        "title": "MOIA ANCA",
+        "description": [
+            "Nr. Contract: A0179",
+            "Denumire furnizor: CMI MOIA ANCA",
+            "Telefon: 0314182034,  0745137439",
+            "E-mail: moia_anca@yahoo.com",
+            "Adresa punct de lucru: Str. Pajura 15, parter, Sect. 1"
+        ],
+        "latitude": 44.4831925,
+        "longitude": 26.0535068
     },
     {
         "title": "PELICAN MARIANA",
@@ -768,6 +900,18 @@
         "longitude": 26.041758
     },
     {
+        "title": "HOROSAN ANCA MIRELA",
+        "description": [
+            "Nr. Contract: A0190",
+            "Denumire furnizor: CMI HOROSAN ANCA MIRELA",
+            "Telefon: 021.340.03.35 int. 144",
+            "E-mail: anca.horosan@gmail.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "DOBRE SILVIA",
         "description": [
             "Nr. Contract: A0191",
@@ -790,6 +934,18 @@
         ],
         "latitude": 44.441662,
         "longitude": 26.1583371
+    },
+    {
+        "title": "AUGUSTIN ROZALIA",
+        "description": [
+            "Nr. Contract: A0199",
+            "Denumire furnizor: CMI AUGUSTIN ROZALIA",
+            "Telefon: 021.260.10.10",
+            "E-mail: cmi_rozalia_augustin@yahoo.com",
+            "Adresa punct de lucru: Bulevard Ing. Gheorghe Duca 10-22,  Sector 1"
+        ],
+        "latitude": 44.44819585,
+        "longitude": 26.0769318244856
     },
     {
         "title": "BARON DANA ROXANA",
@@ -816,6 +972,42 @@
         "longitude": 26.1275619
     },
     {
+        "title": "POENARU ELENA",
+        "description": [
+            "Nr. Contract: A0204",
+            "Denumire furnizor: CMI POENARU ELENA",
+            "Telefon: 021.340.03.35 int.217",
+            "E-mail: lenapoe@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "BARBULESCU CARMEN ANGELA",
+        "description": [
+            "Nr. Contract: A0205",
+            "Denumire furnizor: CMI BARBULESCU CARMEN ANGELA",
+            "Telefon: 021.745.05.90",
+            "E-mail: cabarbulescu@yahoo.com",
+            "Adresa punct de lucru: Str Drumul Taberei 124-126, Parter, Cabinet nr.3, Sect 6"
+        ],
+        "latitude": 44.4170608,
+        "longitude": 26.0276018
+    },
+    {
+        "title": "OLTEANU ANA ECATERINA",
+        "description": [
+            "Nr. Contract: A0206",
+            "Denumire furnizor: CMI OLTEANU ANA ECATERINA",
+            "Telefon: 021.340.03.35 int. 144",
+            "E-mail: dr.olteanu@gmail.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "IONESCU MIHAELA STEFANIA",
         "description": [
             "Nr. Contract: A0207",
@@ -826,6 +1018,30 @@
         ],
         "latitude": 44.4701338,
         "longitude": 26.0513508
+    },
+    {
+        "title": "MOANGA DECEBAL",
+        "description": [
+            "Nr. Contract: A0208",
+            "Denumire furnizor: CMI MOANGA DECEBAL",
+            "Telefon: 0744.848.267",
+            "E-mail: moangaanca@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Et. 6, Cab. 617, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "TITIRIGA RADOI ALEXANDRINA",
+        "description": [
+            "Nr. Contract: A0209",
+            "Denumire furnizor: CMI TITIRIGA RADOI ALEXANDRINA",
+            "Telefon: 021.340.03.35 int 147",
+            "E-mail: cmi_tralexandrina@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "MARIN MARIA SIMONA",
@@ -876,6 +1092,30 @@
         "longitude": 26.1169327
     },
     {
+        "title": "MUSAT LACRAMIOARA",
+        "description": [
+            "Nr. Contract: A0216",
+            "Denumire furnizor: CMI MUSAT LACRAMIOARA",
+            "Telefon: 0213400335",
+            "E-mail: lacramusat@gmail.com",
+            "Adresa punct de lucru: Bd Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "MORARU TINCA",
+        "description": [
+            "Nr. Contract: A0218",
+            "Denumire furnizor: CMI MORARU TINCA",
+            "Telefon: 021.340.03.35 int.217",
+            "E-mail: tinca.moraru.tm@gmail.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "POPESCU ELENA CRISTINA",
         "description": [
             "Nr. Contract: A0219",
@@ -886,6 +1126,18 @@
         ],
         "latitude": 44.3797948,
         "longitude": 26.1228002
+    },
+    {
+        "title": "NICOLAU CARMEN-LIDIA",
+        "description": [
+            "Nr. Contract: A0222",
+            "Denumire furnizor: CMI NICOLAU CARMEN LIDIA",
+            "Telefon: 021.222.70.72",
+            "E-mail: nicolau_lidia@yahoo.com",
+            "Adresa punct de lucru: Bulevard Inginer Gheorghe Duca 10-22, Sector 1"
+        ],
+        "latitude": 44.44819585,
+        "longitude": 26.0769318244856
     },
     {
         "title": "MARINESCU ANGELA",
@@ -958,6 +1210,18 @@
         ],
         "latitude": 44.4381677,
         "longitude": 26.0151202
+    },
+    {
+        "title": "TITIRIGA RADOI DAN LIVIU",
+        "description": [
+            "Nr. Contract: A0238",
+            "Denumire furnizor: CMI TITIRIGA RADOI DAN LIVIU",
+            "Telefon: 0787.675.130",
+            "E-mail: andra_blidaru@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "MEDRUT IOSIF MARIUS",
@@ -1092,6 +1356,42 @@
         "longitude": 26.105649
     },
     {
+        "title": "POPESCU MARIANA",
+        "description": [
+            "Nr. Contract: A0263",
+            "Denumire furnizor: CMI POPESCU MARIANA",
+            "Telefon: 021.332.11.44",
+            "E-mail: popescu_mariana61@yahoo.com",
+            "Adresa punct de lucru: Str. Spatar Preda Buzescu nr. 34, Et. 1, Sect. 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
+        "title": "BALAN CAMELIA",
+        "description": [
+            "Nr. Contract: A0264",
+            "Denumire furnizor: CMI BALAN CAMELIA",
+            "Telefon: 0745.069.387",
+            "E-mail: balan.camelia@yahoo.de",
+            "Adresa punct de lucru: Str. Spataru Preda nr. 5, Sect. 5"
+        ],
+        "latitude": 44.3926234,
+        "longitude": 26.0980757
+    },
+    {
+        "title": "ZINCA SORINA",
+        "description": [
+            "Nr. Contract: A0268",
+            "Denumire furnizor: CMI ZINCA SORINA",
+            "Telefon: 021.745.05.79 ",
+            "E-mail: sorina_zinca@yahoo.com",
+            "Adresa punct de lucru: Str. Drumul Taberei nr. 124-126, Sect. 6"
+        ],
+        "latitude": 44.41981,
+        "longitude": 26.0283834
+    },
+    {
         "title": "MULTESCU FLORENTINA",
         "description": [
             "Nr. Contract: A0269",
@@ -1152,6 +1452,18 @@
         "longitude": 26.1275619
     },
     {
+        "title": "URSULEANU MARCELA",
+        "description": [
+            "Nr. Contract: A0279",
+            "Denumire furnizor: CMI URSULEANU MARCELA",
+            "Telefon: 021.340.03.35 int.202",
+            "E-mail: marcela.ursuleanu@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "LUCA RODICA",
         "description": [
             "Nr. Contract: A0283",
@@ -1174,6 +1486,18 @@
         ],
         "latitude": 44.44870615,
         "longitude": 26.1002438283981
+    },
+    {
+        "title": "LICU GLADIOLA",
+        "description": [
+            "Nr. Contract: A0287",
+            "Denumire furnizor: CMI LICU GLADIOLA",
+            "Telefon: 021.340.03.35/int.112",
+            "E-mail: gladiolalicu@gmail.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Et 1, Cab. 107, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "GHINET CRISTINA",
@@ -1212,6 +1536,18 @@
         "longitude": 26.1275619
     },
     {
+        "title": "PETCU MIHAELA CRISTINA",
+        "description": [
+            "Nr. Contract: A0295",
+            "Denumire furnizor: CMI PETCU MIHAELA CRISTINA",
+            "Telefon: 021.340.03.35 int.110",
+            "E-mail: michellepetcu@gmail.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "GEICULESCU CALIN MIHAI",
         "description": [
             "Nr. Contract: A0298",
@@ -1234,6 +1570,18 @@
         ],
         "latitude": 44.4234204,
         "longitude": 26.1275619
+    },
+    {
+        "title": "BOTEZ VOICA RUXANDRA",
+        "description": [
+            "Nr. Contract: A0303",
+            "Denumire furnizor: CMI BOTEZ VOICA RUXANDRA",
+            "Telefon: 021.340.03.35/146",
+            "E-mail: voica.ruxandra@gmail.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Cab. 101, Et. 1, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "FARCASANU MARIANA",
@@ -1270,6 +1618,30 @@
         ],
         "latitude": 44.40925625,
         "longitude": 26.0710703483346
+    },
+    {
+        "title": "IONESCU LAURA",
+        "description": [
+            "Nr. Contract: A0309",
+            "Denumire furnizor: CMI IONESCU LAURA",
+            "Telefon: 0727.085.986",
+            "E-mail: ionesculaura10@yahoo.com",
+            "Adresa punct de lucru: Strada Pictor Nicolae Grigorescu nr.41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "POPESCU ILEANA DESPINA",
+        "description": [
+            "Nr. Contract: A0311",
+            "Denumire furnizor: CMI POPESCU ILEANA DESPINA",
+            "Telefon: 0213400335 int.207/0745.259.864",
+            "E-mail: popescudespina62@gmail.com",
+            "Adresa punct de lucru: Bd Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "FELECAN ILEANA",
@@ -1452,6 +1824,30 @@
         "longitude": 26.1284696
     },
     {
+        "title": "VLADU VALENTIN",
+        "description": [
+            "Nr. Contract: A0360",
+            "Denumire furnizor: CMI VLADU VALENTIN",
+            "Telefon: 0724.053.590",
+            "E-mail: vv.vladu@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "NICOLESCU CONSTANTIN SORIN",
+        "description": [
+            "Nr. Contract: A0361",
+            "Denumire furnizor: CMI NICOLESCU CONSTANTIN SORIN",
+            "Telefon: 021.335.78.45 / 0722.315.053",
+            "E-mail: nicolescu.sorin@gmail.com",
+            "Adresa punct de lucru: Str. Piata Natiunile Unite nr. 3-5, Sect. 4"
+        ],
+        "latitude": 44.428753549999996,
+        "longitude": 26.096947691858013
+    },
+    {
         "title": "CURELEA LILIANA",
         "description": [
             "Nr. Contract: A0362",
@@ -1524,6 +1920,18 @@
         "longitude": 26.053859
     },
     {
+        "title": "OLARU CRISTIAN GEORGE",
+        "description": [
+            "Nr. Contract: A0375",
+            "Denumire furnizor: CMI OLARU CRISTIAN GEORGE",
+            "Telefon: 021.340.03.35 int.201/0720.317.189",
+            "E-mail: crolaru.coco@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "MIRON IRINA",
         "description": [
             "Nr. Contract: A0379",
@@ -1536,6 +1944,18 @@
         "longitude": 26.0182847
     },
     {
+        "title": "MOCANU MIHAELA ANCA",
+        "description": [
+            "Nr. Contract: A0383",
+            "Denumire furnizor: CMI MOCANU MIHAELA ANCA",
+            "Telefon: 0722576699",
+            "E-mail: dr.mma62@gmail.com",
+            "Adresa punct de lucru: Strada Prof. Grigore Cobalcescu nr. 2, Sector 1"
+        ],
+        "latitude": 44.4374178,
+        "longitude": 26.0875957
+    },
+    {
         "title": "HUZLAU GABRIELA CORNELIA",
         "description": [
             "Nr. Contract: A0386",
@@ -1546,6 +1966,18 @@
         ],
         "latitude": 44.4381677,
         "longitude": 26.0151202
+    },
+    {
+        "title": "OLARU MIHAELA RODICA",
+        "description": [
+            "Nr. Contract: A0389",
+            "Denumire furnizor: CMI OLARU MIHAELA RODICA",
+            "Telefon: 021.340.03.35 int.202/0720.013.296",
+            "E-mail: rockrod56@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "HAGICALIL LILIANA",
@@ -1584,6 +2016,30 @@
         "longitude": 26.1002438283981
     },
     {
+        "title": "CIOCOIU FLORENTINA",
+        "description": [
+            "Nr. Contract: A0398",
+            "Denumire furnizor: CMI CIOCOIU FLORENTINA",
+            "Telefon: 021.324.6119",
+            "E-mail: ciocoiu_florentina@yahoo.com",
+            "Adresa punct de lucru: Str. Pictor Gheorghe Tattarascu nr. 10, Sect. 3"
+        ],
+        "latitude": 44.4294795,
+        "longitude": 26.154535
+    },
+    {
+        "title": "STERIADE MARIANA VERONICA",
+        "description": [
+            "Nr. Contract: A0399",
+            "Denumire furnizor: CMI STERIADE MARIANA VERONICA",
+            "Telefon: 021.3400.335/INT.153/ 0722.225.769",
+            "E-mail: mariana.steriade@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "GHELBEREU SORIN",
         "description": [
             "Nr. Contract: A0400",
@@ -1618,6 +2074,18 @@
         ],
         "latitude": 44.410943,
         "longitude": 26.1472073
+    },
+    {
+        "title": "HERDEA VALERIA",
+        "description": [
+            "Nr. Contract: A0408",
+            "Denumire furnizor: CMI HERDEA VALERIA",
+            "Telefon: 021.324.36.88",
+            "E-mail: valeriaherdea@yahoo.com",
+            "Adresa punct de lucru: Strada Pictor Gheorghe Tattarescu nr.10, sector 3"
+        ],
+        "latitude": 44.4294795,
+        "longitude": 26.154535
     },
     {
         "title": "FODOLICA MADALINA ANDREEA",
@@ -1714,6 +2182,30 @@
         ],
         "latitude": 44.4525731,
         "longitude": 26.12414
+    },
+    {
+        "title": "BALAN SMARANDITA NICOLETA",
+        "description": [
+            "Nr. Contract: A0431",
+            "Denumire furnizor: CMI BALAN SMARANDITA NICOLETA",
+            "Telefon: 0744338053",
+            "E-mail: smaranditabalan1955@gmail.com",
+            "Adresa punct de lucru: Bd Pictor Nicolae Grigorescu 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "AGARICI EUGENIA ROZALIA",
+        "description": [
+            "Nr. Contract: A0436",
+            "Denumire furnizor: CMI AGARICI EUGENIA ROZALIA",
+            "Telefon: 0213361825,  0737037111",
+            "E-mail: cmiagaricieugenia@yahoo.com",
+            "Adresa punct de lucru: Strada Cpt. Gheorghe Preotescu nr. 35, ap 2, sector 4"
+        ],
+        "latitude": 44.4198468,
+        "longitude": 26.0985283
     },
     {
         "title": "GHELBEREU LUMINITA OCTAVIA",
@@ -1896,6 +2388,18 @@
         "longitude": 26.0583642
     },
     {
+        "title": "STANESCU ADRIAN SORIN",
+        "description": [
+            "Nr. Contract: A0471",
+            "Denumire furnizor: CMI STANESCU ADRIAN SORIN",
+            "Telefon: 0212320440",
+            "E-mail: sasdr.1999@yahoo.com",
+            "Adresa punct de lucru: Strada Sold. Gheorghe Buciumat 27, Parter, Apartament 2, Cabinet 1, Sector 1"
+        ],
+        "latitude": 44.487589,
+        "longitude": 26.0965958
+    },
+    {
         "title": "IONESCU CRISTIAN GEORGE",
         "description": [
             "Nr. Contract: A0472",
@@ -1966,6 +2470,18 @@
         ],
         "latitude": 44.4234204,
         "longitude": 26.1275619
+    },
+    {
+        "title": "VASILE ALEXANDRINA",
+        "description": [
+            "Nr. Contract: A0485",
+            "Denumire furnizor: CMI VASILE ALEXANDRINA",
+            "Telefon: 021.324.61.19/0720.528.555",
+            "E-mail: cmivasile@yahoo.ro",
+            "Adresa punct de lucru: Str.Pictor Gheorghe Tattarascu nr.10,sect.3"
+        ],
+        "latitude": 44.4294795,
+        "longitude": 26.154535
     },
     {
         "title": "MIHIOTIS SILVIA",
@@ -2166,6 +2682,18 @@
             "Denumire furnizor: CMI POPESCU IULIANA",
             "Telefon: 0723.230.977",
             "E-mail: iuliana.popescu@yahoo.com",
+            "Adresa punct de lucru: Strada Drumea RAdulescu 16-18, etaj 1, cabinet nr.3, Sector 4"
+        ],
+        "latitude": 44.4166601,
+        "longitude": 26.105649
+    },
+    {
+        "title": "POPESCU IULIANA",
+        "description": [
+            "Nr. Contract: A0542",
+            "Denumire furnizor: CMI POPESCU IULIANA",
+            "Telefon: 0723.230.977",
+            "E-mail: iuliana.popescu@yahoo.com",
             "Adresa punct de lucru: Sos.Pantelimon nr.292,sect.2"
         ],
         "latitude": 44.442276,
@@ -2196,6 +2724,18 @@
         "longitude": 26.0733442
     },
     {
+        "title": "POPESCU FLORICA",
+        "description": [
+            "Nr. Contract: A0551",
+            "Denumire furnizor: CMI POPESCU FLORICA",
+            "Telefon: 0722858673",
+            "E-mail: p_flori33@yahoo.com",
+            "Adresa punct de lucru: Strada Mihail Eminescu nr.156, et. Parter, Ap. CM 2, Sector 2"
+        ],
+        "latitude": 44.4468262,
+        "longitude": 26.1109428
+    },
+    {
         "title": "CIRICA DANA IOANA",
         "description": [
             "Nr. Contract: A0552",
@@ -2218,6 +2758,18 @@
         ],
         "latitude": 44.4374178,
         "longitude": 26.0875957
+    },
+    {
+        "title": "CHIRITA FELICIA GENOVEVA",
+        "description": [
+            "Nr. Contract: A0557",
+            "Denumire furnizor: CMI BUCHET NICOLETA ",
+            "Telefon: 0748225420",
+            "E-mail: buchetnicoleta@yahoo.com",
+            "Adresa punct de lucru: Bd I. Gh. Duca 10-22, Parter, Cabinet 2, Sector 1"
+        ],
+        "latitude": 44.44819585,
+        "longitude": 26.0769318244856
     },
     {
         "title": "CATANA MARION",
@@ -2268,6 +2820,18 @@
         "longitude": 26.1228002
     },
     {
+        "title": "SOCOSAN ANELIS LUCIA",
+        "description": [
+            "Nr. Contract: A0568",
+            "Denumire furnizor: CMI SOCOSAN ANELIS LUCIA",
+            "Telefon: 021.340.01.59/0770.641.016",
+            "E-mail: lucia_socosan@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "LAZAR SLAVICI IULIAN MARTIAN",
         "description": [
             "Nr. Contract: A0571",
@@ -2278,6 +2842,18 @@
         ],
         "latitude": 44.4479242,
         "longitude": 26.1056192
+    },
+    {
+        "title": "NICULAE RODICA",
+        "description": [
+            "Nr. Contract: A0576",
+            "Denumire furnizor: CMI NICULAE RODICA",
+            "Telefon: 0723.503.404",
+            "E-mail: rodica.niculae@gmail.com",
+            "Adresa punct de lucru: Str Dr. Ion Nanu Muscel nr. 12, Sect. 5"
+        ],
+        "latitude": 44.4333385,
+        "longitude": 26.0726643
     },
     {
         "title": "VLAICU ANCA",
@@ -2340,6 +2916,18 @@
         "longitude": 26.082606
     },
     {
+        "title": "OSACI ADELA DANIELA",
+        "description": [
+            "Nr. Contract: A0596",
+            "Denumire furnizor: CMI OSACI ADELA DANIELA",
+            "Telefon: 0744.654.884",
+            "E-mail: adela.osaci@gmail.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "TOMA MIRELA",
         "description": [
             "Nr. Contract: A0598",
@@ -2350,6 +2938,18 @@
         ],
         "latitude": 44.4098821,
         "longitude": 26.0590637
+    },
+    {
+        "title": "FEJER RUXANDRA MIHAELA",
+        "description": [
+            "Nr. Contract: A0600",
+            "Denumire furnizor: CMI FEJER RUXANDRA MIHAELA",
+            "Telefon: 021.340.03.35 int. 138",
+            "E-mail: rmfejer@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 4, Et. 3, Sect. 3"
+        ],
+        "latitude": 44.4331435,
+        "longitude": 26.1603667
     },
     {
         "title": "TAROPA DANIELA TEODORA",
@@ -2422,6 +3022,18 @@
         ],
         "latitude": 44.4618601,
         "longitude": 26.0733442
+    },
+    {
+        "title": "SOPON SILVIA MARGARETA EDWINA",
+        "description": [
+            "Nr. Contract: A0614",
+            "Denumire furnizor: CMI SOPON SILVIA MARGARETA EDWINA",
+            "Telefon: 0745.138.550",
+            "E-mail: dr.sopon@gmail.com",
+            "Adresa punct de lucru: Bd. I.G. Duca nr. 10- 22, Sect. 1"
+        ],
+        "latitude": 44.44819585,
+        "longitude": 26.0769318244856
     },
     {
         "title": "COMSA MIHAELA",
@@ -2568,6 +3180,18 @@
         "longitude": 26.0408459
     },
     {
+        "title": "BADEA MIHNEA ADRIAN",
+        "description": [
+            "Nr. Contract: A0651",
+            "Denumire furnizor: CMI BADEA MIHNEA ADRIAN",
+            "Telefon: 021.211.58.67 / 0723.334.255",
+            "E-mail: dr.badea.andrew.1234@gmail.com",
+            "Adresa punct de lucru: Intrarea Deleni 7, Bloc T69, Scara A, Etaj 1, Apartament 5 Sect 2"
+        ],
+        "latitude": 44.4581962,
+        "longitude": 26.1219962
+    },
+    {
         "title": "FLOREA RAZVAN",
         "description": [
             "Nr. Contract: A0655",
@@ -2712,6 +3336,18 @@
         "longitude": 26.1389582
     },
     {
+        "title": "LICUDIS PAULINA TEREZA",
+        "description": [
+            "Nr. Contract: A0667",
+            "Denumire furnizor: CMI LICUDIS PAULINA TEREZA",
+            "Telefon: 0213400335 int.225",
+            "E-mail: paula.licudis@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu 41, Et.3, Cab.319, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "GLAVAN CARMEN RALUCA",
         "description": [
             "Nr. Contract: A0668",
@@ -2734,6 +3370,18 @@
         ],
         "latitude": 44.4849139,
         "longitude": 26.0395023
+    },
+    {
+        "title": "RADULESCU DOINITA-MARIANA",
+        "description": [
+            "Nr. Contract: A0670",
+            "Denumire furnizor: CMI RADULESCU DOINITA MARIANA",
+            "Telefon: 0213400335/ int 114",
+            "E-mail: doinita.radulescu@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "ALEXE MIHAELA",
@@ -2806,6 +3454,30 @@
         ],
         "latitude": 44.4114482,
         "longitude": 26.0635112
+    },
+    {
+        "title": "STREZA MARIA",
+        "description": [
+            "Nr. Contract: A0685",
+            "Denumire furnizor: CMI STREZA MARIA",
+            "Telefon: 0213138087",
+            "E-mail: mariastreza@gmail.com",
+            "Adresa punct de lucru: Strada Plevnei Nr. 137C , Corp A+D , Parter , Camera 13,  Sector 6"
+        ],
+        "latitude": 44.4417505,
+        "longitude": 26.0717681
+    },
+    {
+        "title": "TOMA IOANA DACIANA",
+        "description": [
+            "Nr. Contract: A0690",
+            "Denumire furnizor: CMI TOMA IOANA DACIANA",
+            "Telefon: 021.315.60.22",
+            "E-mail: dacianatoma@yahoo.com",
+            "Adresa punct de lucru: Str. Prof. Grogore Cobalcescu nr. 2, Sect. 1"
+        ],
+        "latitude": 44.4374178,
+        "longitude": 26.0875957
     },
     {
         "title": "ILIESCU VALERIU MIHAI",
@@ -2916,6 +3588,18 @@
         "longitude": 26.1384185
     },
     {
+        "title": "TANASE COJOCARU ALEXANDRA",
+        "description": [
+            "Nr. Contract: A0708",
+            "Denumire furnizor: CMI TANASE COJOCARU ALEXANDRA",
+            "Telefon: 0724.271.771",
+            "E-mail: alexandra_tanase_cojocaru@yahoo.com",
+            "Adresa punct de lucru: Strada  Prof. Dimitrie Pompeiu nr. 8, sector 2"
+        ],
+        "latitude": 44.48158865,
+        "longitude": 26.1206855063809
+    },
+    {
         "title": "DUMITRU MIRELA LIVIA",
         "description": [
             "Nr. Contract: A0712",
@@ -2938,6 +3622,18 @@
         ],
         "latitude": 44.4695186,
         "longitude": 26.0555003
+    },
+    {
+        "title": "PUSCASU CATALINA DANIELA",
+        "description": [
+            "Nr. Contract: A0717",
+            "Denumire furnizor: CENTRUL MEDICAL UNIREA SRL",
+            "Telefon: 0219268",
+            "E-mail: office@reginamaria.ro",
+            "Adresa punct de lucru: Soseaua Oltenitei nr.83C Si Calea Vacaresti nr.391, spatiul 01 A14, Sector 4"
+        ],
+        "latitude": 44.39053,
+        "longitude": 26.1287019
     },
     {
         "title": "PEREANU MARIOARA",
@@ -2974,6 +3670,18 @@
         ],
         "latitude": 44.4338035,
         "longitude": 25.995939
+    },
+    {
+        "title": "VLADUTU MIHAELA LUMINITA",
+        "description": [
+            "Nr. Contract: A0717",
+            "Denumire furnizor: CENTRUL MEDICAL UNIREA SRL",
+            "Telefon: 0219268",
+            "E-mail: office@reginamaria.ro",
+            "Adresa punct de lucru: Bulevard Iuliu Maniu 51 Bloc 22B, Sector 6"
+        ],
+        "latitude": 44.4339229,
+        "longitude": 26.0337554
     },
     {
         "title": "CALIN ANA LUIZA",
@@ -3084,6 +3792,30 @@
         "longitude": 26.0877357
     },
     {
+        "title": "SPRINCENATU RUSEN NICOLETA MIHAELA",
+        "description": [
+            "Nr. Contract: A0717",
+            "Denumire furnizor: CENTRUL MEDICAL UNIREA SRL",
+            "Telefon: 0219268",
+            "E-mail: office@reginamaria.ro",
+            "Adresa punct de lucru: Strada Dimitrie Pompei 9-9A, cladirea 1, parter, Sector 2"
+        ],
+        "latitude": 44.4823027,
+        "longitude": 26.1189829
+    },
+    {
+        "title": "PREDA DANA",
+        "description": [
+            "Nr. Contract: A0717",
+            "Denumire furnizor: CENTRUL MEDICAL UNIREA SRL",
+            "Telefon: 0219268",
+            "E-mail: office@reginamaria.ro",
+            "Adresa punct de lucru: Strada Dimitrie Pompei 9-9A, cladirea 1, parter, Sector 2"
+        ],
+        "latitude": 44.4823027,
+        "longitude": 26.1189829
+    },
+    {
         "title": "GHERGHESCU CRISTINA BIANCA",
         "description": [
             "Nr. Contract: A0717",
@@ -3132,6 +3864,18 @@
         "longitude": 26.1156522
     },
     {
+        "title": "JUVERDEANU MARINA DOINA",
+        "description": [
+            "Nr. Contract: A0722",
+            "Denumire furnizor: CMI JUVERDEANU MARINA DOINA",
+            "Telefon: 021.316.22.43/0750.814.451",
+            "E-mail: marinajuverdeanu@yahoo.com",
+            "Adresa punct de lucru: Str. Prof. Grigore Cobalcescu nr. 2, Cab. 3, Sect. 1"
+        ],
+        "latitude": 44.4374178,
+        "longitude": 26.0875957
+    },
+    {
         "title": "BALTAGARU ANCA MIHAELA",
         "description": [
             "Nr. Contract: A0725",
@@ -3154,6 +3898,30 @@
         ],
         "latitude": 44.3797948,
         "longitude": 26.1228002
+    },
+    {
+        "title": "SURUGIU ELENA",
+        "description": [
+            "Nr. Contract: A0735",
+            "Denumire furnizor: MED LIFE SA",
+            "Telefon: 0219646",
+            "E-mail: office@medlife.ro",
+            "Adresa punct de lucru: Strada Drumul Taberei 24, Sector 6"
+        ],
+        "latitude": 44.4246512,
+        "longitude": 26.046295
+    },
+    {
+        "title": "IORDACHI IULIA ELENA",
+        "description": [
+            "Nr. Contract: A0735",
+            "Denumire furnizor: MED LIFE SA",
+            "Telefon: 0219646",
+            "E-mail: office@medlife.ro",
+            "Adresa punct de lucru: Strada Drumul Taberei 24, Sector 6"
+        ],
+        "latitude": 44.4246512,
+        "longitude": 26.046295
     },
     {
         "title": "GAVRILESCU CRISTINA FLORENTINA",
@@ -3204,6 +3972,18 @@
         "longitude": 26.0795233
     },
     {
+        "title": "ENACHE ELENA",
+        "description": [
+            "Nr. Contract: A0735",
+            "Denumire furnizor: MED LIFE SA",
+            "Telefon: 0219646",
+            "E-mail: office@medlife.ro",
+            "Adresa punct de lucru: Strada Hans Cristian Andersen nr.1 Sector 4"
+        ],
+        "latitude": 44.4243302,
+        "longitude": 26.10344
+    },
+    {
         "title": "RADU ILEANA MARTA",
         "description": [
             "Nr. Contract: A0737",
@@ -3214,6 +3994,30 @@
         ],
         "latitude": 44.4455576,
         "longitude": 26.1198018
+    },
+    {
+        "title": "CHIRITI MARIOARA",
+        "description": [
+            "Nr. Contract: A0738",
+            "Denumire furnizor: SCM SF.MINA",
+            "Telefon: 021.315.40.09",
+            "E-mail: scm.sfantulmina@yahoo.com",
+            "Adresa punct de lucru: Str. C. F. Robescu nr. 17, Sect. 3"
+        ],
+        "latitude": 44.4325586,
+        "longitude": 26.110167
+    },
+    {
+        "title": "CALINESCU RADU",
+        "description": [
+            "Nr. Contract: A0738",
+            "Denumire furnizor: SCM SF.MINA",
+            "Telefon: 021.315.40.09",
+            "E-mail: scm.sfantulmina@yahoo.com",
+            "Adresa punct de lucru: Str. C. F. Robescu nr. 17, Sect. 3"
+        ],
+        "latitude": 44.4325586,
+        "longitude": 26.110167
     },
     {
         "title": "GRAJDEANU IOANA VERONICA",
@@ -3300,6 +4104,18 @@
         "longitude": 26.0237723
     },
     {
+        "title": "ION MARIN",
+        "description": [
+            "Nr. Contract: A0760",
+            "Denumire furnizor: SC DIAMAR PROD SRL",
+            "Telefon: 021.410.39.60/0723.330.800",
+            "E-mail: cabinet.diamar@gmail.com",
+            "Adresa punct de lucru: Aleea Botorani nr.6 bl.V83,ap.3,sect.5"
+        ],
+        "latitude": 44.4207175,
+        "longitude": 26.0628797
+    },
+    {
         "title": "BADEA I CARMEN",
         "description": [
             "Nr. Contract: A0768",
@@ -3384,6 +4200,18 @@
         "longitude": 26.1270136201298
     },
     {
+        "title": "RAHMIH MARWAN",
+        "description": [
+            "Nr. Contract: A0786",
+            "Denumire furnizor: CMI RAHMIH MARWAN",
+            "Telefon: 0214205122",
+            "E-mail: marwanrahmih@yahoo.com",
+            "Adresa punct de lucru: Strada  Petre Gidescu 7, Parter, Sector 5"
+        ],
+        "latitude": 44.4103143,
+        "longitude": 26.0591388
+    },
+    {
         "title": "BARBOI CRISTIANA",
         "description": [
             "Nr. Contract: A0787",
@@ -3444,6 +4272,18 @@
         "longitude": 26.1076839
     },
     {
+        "title": "MARDALE POPA TINCA DORINA",
+        "description": [
+            "Nr. Contract: A0796",
+            "Denumire furnizor: CMI MARDALE POPA TINCA DORINA",
+            "Telefon: 0723.588.526",
+            "E-mail: mardaledorina@gmail.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, Cabinet 1, parter, Camera 4, sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
         "title": "SEMEN IULIANA",
         "description": [
             "Nr. Contract: A0798",
@@ -3480,6 +4320,18 @@
         "longitude": 26.12414
     },
     {
+        "title": "GIDEA ADRIANA",
+        "description": [
+            "Nr. Contract: A0805",
+            "Denumire furnizor: CMI GIDEA ADRIANA",
+            "Telefon: 0213252237",
+            "E-mail: adrianagidea@yahoo.com",
+            "Adresa punct de lucru: Strada Pictor Gheorghe Tattarescu nr.2, sector 3"
+        ],
+        "latitude": 44.4288244,
+        "longitude": 26.1527363
+    },
+    {
         "title": "MATEESCU IOANA",
         "description": [
             "Nr. Contract: A0808",
@@ -3490,6 +4342,18 @@
         ],
         "latitude": 44.4364176,
         "longitude": 26.1204426
+    },
+    {
+        "title": "DUMITRESCU LIVIU",
+        "description": [
+            "Nr. Contract: A0810",
+            "Denumire furnizor: CMI DUMITRESCU LIVIU",
+            "Telefon: 0213131303",
+            "E-mail: cmidrdumitresculiviu@yahoo.com",
+            "Adresa punct de lucru: Str. Bucurestii Noi nr. 64, parter, camera 8, Sect. 1"
+        ],
+        "latitude": 44.4849139,
+        "longitude": 26.0395023
     },
     {
         "title": "DOBOS MIHAELA",
@@ -3588,6 +4452,66 @@
         "longitude": 26.1169327
     },
     {
+        "title": "CONSTANTIN PAULA ALINA",
+        "description": [
+            "Nr. Contract: A0844",
+            "Denumire furnizor: CMI CONSTANTIN PAULA ALINA",
+            "Telefon: 0314342647",
+            "E-mail: alinaconstantin27@yahoo.com",
+            "Adresa punct de lucru: Str Dr.Calistrat Grozovici 6, Sector 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
+        "title": "LANG DOINA",
+        "description": [
+            "Nr. Contract: A0845",
+            "Denumire furnizor: CMI LANG DOINA",
+            "Telefon: 0739346455",
+            "E-mail: doinalang@yahoo.com",
+            "Adresa punct de lucru: Str Dr.Calistrat Grozovici 6, Sector 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
+        "title": "STANCU NICOLETA",
+        "description": [
+            "Nr. Contract: A0847",
+            "Denumire furnizor: CMI STANCU NICOLETA",
+            "Telefon: 0745246670",
+            "E-mail: dr.nicoletastancu@gmail.com",
+            "Adresa punct de lucru: Str Dr.Calistrat Grozovici 6, Sector 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
+        "title": "TOFAN DIANA",
+        "description": [
+            "Nr. Contract: A0851",
+            "Denumire furnizor: CMI TOFAN DIANA",
+            "Telefon: 0745310301",
+            "E-mail: diana.tofan58@yahoo.com",
+            "Adresa punct de lucru: Str Dr.Calistrat Grozovici 6, Sector 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
+        "title": "NEGREAN ALIN AURELIAN",
+        "description": [
+            "Nr. Contract: A0854",
+            "Denumire furnizor: CMI NEGREAN ALIN AURELIAN",
+            "Telefon: 0213183430,  0744645039",
+            "E-mail: cmi.negrean@gmail.com",
+            "Adresa punct de lucru: Strada Dr. Calistrat Grozovici nr. 6, sector 2  "
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
         "title": "MIRAUTA CARMEN CONSTANTA",
         "description": [
             "Nr. Contract: A0857",
@@ -3672,6 +4596,18 @@
         "longitude": 26.128042
     },
     {
+        "title": "PANA DANIELA",
+        "description": [
+            "Nr. Contract: A0875",
+            "Denumire furnizor: CMI PANA DANIELA",
+            "Telefon: 0213402146",
+            "E-mail: daniela.pana06@gmail.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu Nr. 41, Corp B, Et. P, Cab. 72, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "CONSTANTIN ALINA MIHAELA",
         "description": [
             "Nr. Contract: A0877",
@@ -3744,6 +4680,18 @@
         "longitude": 26.105649
     },
     {
+        "title": "GEORGESCU MONICA VIRGINIA",
+        "description": [
+            "Nr. Contract: A0888",
+            "Denumire furnizor: CMI GEORGESCU MONICA VIRGINIA",
+            "Telefon: 0722.433.188",
+            "E-mail: georgescumonicavirginia@yahoo.com",
+            "Adresa punct de lucru: Strada C. F. Robescu nr. 17, sector 3"
+        ],
+        "latitude": 44.4325586,
+        "longitude": 26.110167
+    },
+    {
         "title": "JURCA DAN",
         "description": [
             "Nr. Contract: A0890",
@@ -3814,6 +4762,18 @@
         ],
         "latitude": 44.4525731,
         "longitude": 26.12414
+    },
+    {
+        "title": "SOARE ILONA",
+        "description": [
+            "Nr. Contract: A0897",
+            "Denumire furnizor: CMI SOARE ILONA",
+            "Telefon: 021.332.50.16",
+            "E-mail: ilonasoare@yahoo.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, parter, cabinet nr. 3, sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
     },
     {
         "title": "RISTACHE VERONICA MONICA",
@@ -3936,6 +4896,18 @@
         "longitude": 26.1651418
     },
     {
+        "title": "ALBU SIMONA",
+        "description": [
+            "Nr. Contract: A0911",
+            "Denumire furnizor: CMI ALBU SIMONA",
+            "Telefon: 0751147381",
+            "E-mail: simonaa29@yahoo.com",
+            "Adresa punct de lucru: Strada Raul Sadului 1, Sector 4"
+        ],
+        "latitude": 44.379780499999995,
+        "longitude": 26.122525928417645
+    },
+    {
         "title": "FLORESCU ROXANA BEATRICE",
         "description": [
             "Nr. Contract: A0912",
@@ -3946,6 +4918,30 @@
         ],
         "latitude": 44.4205518,
         "longitude": 26.164746
+    },
+    {
+        "title": "ANGHEL MARINELA",
+        "description": [
+            "Nr. Contract: A0915",
+            "Denumire furnizor: CMI ANGHEL MARINELA",
+            "Telefon: 0314.37.96.63",
+            "E-mail: marinela.anghel@gmail.com",
+            "Adresa punct de lucru: Bld.Pictor Nicolae Grigorescu nr.41, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "NITA RODICA",
+        "description": [
+            "Nr. Contract: A0919",
+            "Denumire furnizor: CMI NITA RODICA",
+            "Telefon: 0727.663.505",
+            "E-mail: nitarody@yahoo.com",
+            "Adresa punct de lucru: Strada Profesor Grigore CobAlcescu 2, Sector 1"
+        ],
+        "latitude": 44.4374178,
+        "longitude": 26.0875957
     },
     {
         "title": "LICA CLEOPATRA",
@@ -3960,6 +4956,18 @@
         "longitude": 26.0253700871122
     },
     {
+        "title": "SERB ELENA BEATRICE",
+        "description": [
+            "Nr. Contract: A0930",
+            "Denumire furnizor: CMI SERB ELENA BEATRICE",
+            "Telefon: 0723.752.550",
+            "E-mail: adrian.gabriel.serb@gmail.com",
+            "Adresa punct de lucru: Bd Pictor Nicolae Grigorescu 41, Sect 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
         "title": "BEJAN GABRIEL CRISTIAN",
         "description": [
             "Nr. Contract: A0933",
@@ -3970,6 +4978,18 @@
         ],
         "latitude": 44.4234204,
         "longitude": 26.1275619
+    },
+    {
+        "title": "LAZARESCU MARIANA",
+        "description": [
+            "Nr. Contract: A0935",
+            "Denumire furnizor: CMI LAZARESCU MARIANA",
+            "Telefon: 021.410.00.88 / 0788.465.718",
+            "E-mail: dr.lazarescu@yahoo.it",
+            "Adresa punct de lucru: Al Botorani nr. 13, Bl.  V44, Sc. 1, Ap. 2, Sect. 5"
+        ],
+        "latitude": 44.4200065,
+        "longitude": 26.0617072
     },
     {
         "title": "IVASCU CRISTINA",
@@ -4042,6 +5062,18 @@
         ],
         "latitude": 44.3919263,
         "longitude": 26.1136717
+    },
+    {
+        "title": "IORDACHE ROSCIUPCHIN ISABELLE LUMINITA",
+        "description": [
+            "Nr. Contract: A0954",
+            "Denumire furnizor: CMI IORDACHE ROSCIUPCHIN ISABELLE LUMINITA",
+            "Telefon: 0723.337.384, 0722.272.856",
+            "E-mail: isaiordache@yahoo.com",
+            "Adresa punct de lucru: Str. Lunguletu nr. 6, Tronson A, Bl. D14, Cab. 3, Sect. 2"
+        ],
+        "latitude": 44.4397001,
+        "longitude": 26.1330694
     },
     {
         "title": "TOADER IRINA",
@@ -4128,6 +5160,18 @@
         "longitude": 26.1519411
     },
     {
+        "title": "PETRE IOAN LAURENTIU",
+        "description": [
+            "Nr. Contract: A0975",
+            "Denumire furnizor: SC PETRIMED SRL",
+            "Telefon: 021/424.95.19/ 0743.009.300",
+            "E-mail: dr.laurentiupetre@gmail.com",
+            "Adresa punct de lucru: Str. Sg. Gheorghe Donici nr.5, Parter, Sector 5"
+        ],
+        "latitude": 44.4118478,
+        "longitude": 26.0715534
+    },
+    {
         "title": "SAVU DANA-CORNELIA",
         "description": [
             "Nr. Contract: A0982",
@@ -4140,6 +5184,18 @@
         "longitude": 26.1755787
     },
     {
+        "title": "MIREA CONSTANTA",
+        "description": [
+            "Nr. Contract: A0983",
+            "Denumire furnizor: CMI MIREA CONSTANTA",
+            "Telefon: 021.324.35.48/ 0723.177.990",
+            "E-mail: dr_mirea@yahoo.com",
+            "Adresa punct de lucru: Str. Pictor Gheorghe Tattarescu nr. 10, Sect. 3"
+        ],
+        "latitude": 44.4294795,
+        "longitude": 26.154535
+    },
+    {
         "title": "BUDICA GABRIELA LIANA",
         "description": [
             "Nr. Contract: A0984",
@@ -4150,6 +5206,18 @@
         ],
         "latitude": 44.4395387,
         "longitude": 26.123576
+    },
+    {
+        "title": "PIRCALABU ELENA MARINA",
+        "description": [
+            "Nr. Contract: A0985",
+            "Denumire furnizor: SC PRACTIMED 2003 SRL",
+            "Telefon: 0374.986.120",
+            "E-mail: dr.pircalabu@yahoo.com",
+            "Adresa punct de lucru: Str.Piata Natiunile Unite nr.3-5, Bl.A, parter, Sector 4"
+        ],
+        "latitude": 44.428753549999996,
+        "longitude": 26.096947691858013
     },
     {
         "title": "DANIELESCU LANDA ANTOANETA",
@@ -4188,6 +5256,18 @@
         "longitude": 26.017597
     },
     {
+        "title": "STOICA MANUELA ANCA",
+        "description": [
+            "Nr. Contract: A0997",
+            "Denumire furnizor: CMI STOICA MANUELA ANCA",
+            "Telefon: 0217.780.100",
+            "E-mail: ancas36@yahoo.com",
+            "Adresa punct de lucru: Str. Drumul Taberei 92, Bl. C7, Sc. C, Ap. 81, Sect. 6"
+        ],
+        "latitude": 44.4191042,
+        "longitude": 26.0189354
+    },
+    {
         "title": "MATEESCU MIRCEA",
         "description": [
             "Nr. Contract: A1004",
@@ -4212,6 +5292,18 @@
         "longitude": 26.1109428
     },
     {
+        "title": "SCHEPP AURA-CORINA",
+        "description": [
+            "Nr. Contract: A1007",
+            "Denumire furnizor: SC MED COR PLUS SRL",
+            "Telefon: 0216874392",
+            "E-mail: corina_schepp@yahoo.com",
+            "Adresa punct de lucru: Strada Arhitect Ion Berindei 7, Bloc Od21C, Scara H, Apartament 311, Sector 2"
+        ],
+        "latitude": 44.4604514,
+        "longitude": 26.1307613
+    },
+    {
         "title": "MINA MADALINA",
         "description": [
             "Nr. Contract: A1012",
@@ -4222,6 +5314,54 @@
         ],
         "latitude": 44.4528548,
         "longitude": 26.1156522
+    },
+    {
+        "title": "NEGRU NICOLETA",
+        "description": [
+            "Nr. Contract: A1013",
+            "Denumire furnizor: CMI NEGRU NICOLETA",
+            "Telefon: 0742.955.553",
+            "E-mail: nicoleta_negru@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "CASARIU ELENA-DANIELA",
+        "description": [
+            "Nr. Contract: A1015",
+            "Denumire furnizor: SC CAB.DANAMED SRL",
+            "Telefon: 0743.630.035 , 021/424.04.94",
+            "E-mail: elenadanielacasariu@yahoo.com",
+            "Adresa punct de lucru: Str. Vicina nr. 25A si 25C, bl.1, sc.1, parter, apt. 1, sector 5 "
+        ],
+        "latitude": 44.4076841,
+        "longitude": 26.0696722
+    },
+    {
+        "title": "ANDREI IONELA ALINA",
+        "description": [
+            "Nr. Contract: A1015",
+            "Denumire furnizor: SC CAB.DANAMED SRL",
+            "Telefon: 0743.630.035 , 021/424.04.94",
+            "E-mail: elenadanielacasariu@yahoo.com",
+            "Adresa punct de lucru: Str. Vicina nr. 25A si 25C, bl.1, sc.1, parter, apt. 1, sector 5 "
+        ],
+        "latitude": 44.4076841,
+        "longitude": 26.0696722
+    },
+    {
+        "title": "MUNTEANU GEANINA MARIA",
+        "description": [
+            "Nr. Contract: A1021",
+            "Denumire furnizor: SC ALEXIS MEDICAL COMPLEX SRL",
+            "Telefon: 0752.19.01.51 ; 021/310.04.58",
+            "E-mail: cma@alexis-medical.ro",
+            "Adresa punct de lucru: Str. Jean Luis Calderon nr. 45, ap.1, sector 2"
+        ],
+        "latitude": 44.4402764,
+        "longitude": 26.104691
     },
     {
         "title": "CADARU MIRCEA VICTOR",
@@ -4258,6 +5398,30 @@
         ],
         "latitude": 44.4623032,
         "longitude": 26.0625065
+    },
+    {
+        "title": "BUTNARIU ANCA",
+        "description": [
+            "Nr. Contract: A1036",
+            "Denumire furnizor: SC MEDICUL CASEI SRL",
+            "Telefon: 031/419.0273",
+            "E-mail: mediculcasei@yahoo.com",
+            "Adresa punct de lucru: Str. Drumul Taberei nr.39, Bloc OS4, Scara 4, Ap.124, parter, Sector 6"
+        ],
+        "latitude": 44.4218717,
+        "longitude": 26.0386377
+    },
+    {
+        "title": "RADU SIMONA DANIELA ",
+        "description": [
+            "Nr. Contract: A1036",
+            "Denumire furnizor: SC MEDICUL CASEI SRL",
+            "Telefon: 031/419.0273",
+            "E-mail: mediculcasei@yahoo.com",
+            "Adresa punct de lucru: Str. Drumul Taberei nr.39, Bloc OS4, Scara 4, Ap.124, parter, Sector 6"
+        ],
+        "latitude": 44.4218717,
+        "longitude": 26.0386377
     },
     {
         "title": "NICA EUGENIA",
@@ -4342,6 +5506,42 @@
         ],
         "latitude": 44.4216215,
         "longitude": 26.1755787
+    },
+    {
+        "title": "MARINESCU GEORGETA",
+        "description": [
+            "Nr. Contract: A1074",
+            "Denumire furnizor: CMI MARINESCU GEORGETA",
+            "Telefon: 0755.104.670",
+            "E-mail: marinescugeorgeta2015@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "MARGINEAN DANIELA-FLORINA",
+        "description": [
+            "Nr. Contract: A1079",
+            "Denumire furnizor: SC ROMEDICA LIFE SRL",
+            "Telefon: 0743.022.345",
+            "E-mail: dr_marginean@yahoo.com",
+            "Adresa punct de lucru: Bulevard Iuliu Maniu 7 Corp Cladire G, Etaj 1, Cab.4, Sector 6"
+        ],
+        "latitude": 44.43206905,
+        "longitude": 26.048935574305
+    },
+    {
+        "title": "ANDREESCU LUCIA-CARMEN",
+        "description": [
+            "Nr. Contract: A1081",
+            "Denumire furnizor: CMI ANDREESCU LUCIA CARMEN",
+            "Telefon: 031.005.00.33",
+            "E-mail: andreescu_68carmen@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Corp A, Et. 6, Cab. 629 ( Lot U118),  Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "CONSTANTINESCU MERI-CLAUDIA",
@@ -4476,6 +5676,42 @@
         "longitude": 26.0498274
     },
     {
+        "title": "MANCA RUCSANDRA MARINA",
+        "description": [
+            "Nr. Contract: A1155",
+            "Denumire furnizor: CMI MANCA RUCSANDRA MARINA",
+            "Telefon: 0722569696",
+            "E-mail: rucsandramarina@yahoo.com",
+            "Adresa punct de lucru: Str.Ion Voda Caragea nr.1D, CorpA, et.1, pozitia 10, sector 1"
+        ],
+        "latitude": 44.4494363,
+        "longitude": 26.1009619
+    },
+    {
+        "title": "BUCICA VIOLETA",
+        "description": [
+            "Nr. Contract: A1161",
+            "Denumire furnizor: ANDREIAS & BUCICA GRUP SRL",
+            "Telefon: 021.255.26.29",
+            "E-mail: bucica.violeta@gmail.com",
+            "Adresa punct de lucru: Strada Sold. Savu Marin nr. 27, etaj 2, sector 2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
+    },
+    {
+        "title": "COVIC TEODOR EMIL",
+        "description": [
+            "Nr. Contract: A1161",
+            "Denumire furnizor: ANDREIAS & BUCICA GRUP SRL",
+            "Telefon: 021.255.26.29",
+            "E-mail: bucica.violeta@gmail.com",
+            "Adresa punct de lucru: Strada Sold. Savu Marin nr. 27, etaj 2, sector 2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
+    },
+    {
         "title": "DANILA EUGEN",
         "description": [
             "Nr. Contract: A1163",
@@ -4524,6 +5760,42 @@
         "longitude": 26.1144846
     },
     {
+        "title": "CHIRULESCU CATALINA",
+        "description": [
+            "Nr. Contract: A1172",
+            "Denumire furnizor: SC KIRU CARE SRL",
+            "Telefon: 0213450710",
+            "E-mail: kiru.care@gmail.com",
+            "Adresa punct de lucru: Str. Sg. Cuibaru Ion nr.16-22, Sector 3"
+        ],
+        "latitude": 44.4176018,
+        "longitude": 26.1830509
+    },
+    {
+        "title": "STANESCU DANIEL",
+        "description": [
+            "Nr. Contract: A1172",
+            "Denumire furnizor: SC KIRU CARE SRL",
+            "Telefon: 0213450710",
+            "E-mail: kiru.care@gmail.com",
+            "Adresa punct de lucru: Str. Sg. Cuibaru Ion nr.16-22, Sector 3"
+        ],
+        "latitude": 44.4176018,
+        "longitude": 26.1830509
+    },
+    {
+        "title": "PACURAR LACRAMIOARA OLIMPIA TEODORA",
+        "description": [
+            "Nr. Contract: A1172",
+            "Denumire furnizor: SC KIRU CARE SRL",
+            "Telefon: 0213450710",
+            "E-mail: kiru.care@gmail.com",
+            "Adresa punct de lucru: Str. Sg. Cuibaru Ion nr.16-22, Sector 3"
+        ],
+        "latitude": 44.4176018,
+        "longitude": 26.1830509
+    },
+    {
         "title": "POP MARIA",
         "description": [
             "Nr. Contract: A1189",
@@ -4546,6 +5818,18 @@
         ],
         "latitude": 44.4247561,
         "longitude": 26.041758
+    },
+    {
+        "title": "PARFENE CATALIN",
+        "description": [
+            "Nr. Contract: A1195",
+            "Denumire furnizor: CMI PARFENE CATALIN",
+            "Telefon: 0753055525",
+            "E-mail: parfene.doc@gmail.com",
+            "Adresa punct de lucru: Strada Drumul Taberei 124-126, Sector 6"
+        ],
+        "latitude": 44.4170608,
+        "longitude": 26.0276018
     },
     {
         "title": "COJOC GABRIELA",
@@ -4668,6 +5952,18 @@
         "longitude": 26.0371929011073
     },
     {
+        "title": "RUXANDRA MIHAELA LAVINIA",
+        "description": [
+            "Nr. Contract: A1218",
+            "Denumire furnizor: CMI RUXANDRA MIHAELA LAVINIA",
+            "Telefon: 021/314.89.67",
+            "E-mail: laviniaruxandra@yahoo.com",
+            "Adresa punct de lucru: Str. Calea Victoriei nr.14 corespondent cu Str. Lipscani 19, Parter, Sector 3"
+        ],
+        "latitude": 44.4329254,
+        "longitude": 26.0977505
+    },
+    {
         "title": "FERESTEANU DANIELA MONICA",
         "description": [
             "Nr. Contract: A1221",
@@ -4740,6 +6036,18 @@
         "longitude": 26.1452927
     },
     {
+        "title": "STROE MIHNEA VALENTIN",
+        "description": [
+            "Nr. Contract: A1236",
+            "Denumire furnizor: SANIFORT SRL",
+            "Telefon: 0745069381",
+            "E-mail: mihnea_stroe@yahoo.com",
+            "Adresa punct de lucru: Bd. Al. Obregia 10-14, Bl 10-14, Sc 3, Ap 91, Sector 4"
+        ],
+        "latitude": 44.3819973,
+        "longitude": 26.115528
+    },
+    {
         "title": "PATRU BOGDAN",
         "description": [
             "Nr. Contract: A1239",
@@ -4810,6 +6118,18 @@
         ],
         "latitude": 44.4165474,
         "longitude": 26.0693022
+    },
+    {
+        "title": "SIPOS MAGDA",
+        "description": [
+            "Nr. Contract: A1272",
+            "Denumire furnizor: CMI SIPOS MAGDA",
+            "Telefon: 021.255.07.07",
+            "E-mail: magda.sipos@yahoo.com",
+            "Adresa punct de lucru: Sos.Pantelimon nr.292, corp C, et.1, Sect. 2"
+        ],
+        "latitude": 44.442276,
+        "longitude": 26.1651418
     },
     {
         "title": "APETROAE MONICA",
@@ -5014,6 +6334,18 @@
         ],
         "latitude": 44.4834512,
         "longitude": 26.0331933
+    },
+    {
+        "title": "SANDU RAZVAN THEODOR",
+        "description": [
+            "Nr. Contract: A1328",
+            "Denumire furnizor: CAH SF.PANTELIMON SRL",
+            "Telefon: 0213400335,  0723660091",
+            "E-mail: cabinetmedicina@yahoo.com",
+            "Adresa punct de lucru: Bulevard Pictor Nicolae Grigorescu 41, Corp A Etaj 3, Camera 323, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "DUMITRU IONUT EDUARD",
@@ -5232,6 +6564,18 @@
         "longitude": 26.0533879
     },
     {
+        "title": "TUCA DAN OVIDIU",
+        "description": [
+            "Nr. Contract: A1330",
+            "Denumire furnizor: CMI TUCA DAN OVIDIU",
+            "Telefon: 021/653.0126",
+            "E-mail: tuca_ovidiu@yahoo.com",
+            "Adresa punct de lucru: Strada Sold. Marin Savu nr.27,Et.1, Sect 2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
+    },
+    {
         "title": "NEAGU MARIA CRISTINA ROXANA",
         "description": [
             "Nr. Contract: A1332",
@@ -5266,6 +6610,18 @@
         ],
         "latitude": 44.4225944,
         "longitude": 26.0155206
+    },
+    {
+        "title": "MANOLE ANGELA",
+        "description": [
+            "Nr. Contract: A1338",
+            "Denumire furnizor: CMI MANOLE ANGELA",
+            "Telefon: 0730963730",
+            "E-mail: angela.manole@yahoo.com",
+            "Adresa punct de lucru: Bulevard Iuliu Maniu 7 Corp Cladire G, Etaj 1, Cab.2, Sector 6"
+        ],
+        "latitude": 44.43206905,
+        "longitude": 26.048935574305
     },
     {
         "title": "SAVA RODICA MIHAELA",
@@ -5314,6 +6670,18 @@
         ],
         "latitude": 44.4143429,
         "longitude": 26.1407439
+    },
+    {
+        "title": "ARABU TRAIAN",
+        "description": [
+            "Nr. Contract: A1362",
+            "Denumire furnizor: CLINICA PRIVATA DR. FILIP SRL",
+            "Telefon: 0741958387",
+            "E-mail: clinicaprivatadrfilip@yahoo.com",
+            "Adresa punct de lucru: Strada Cpt. Eremia Popescu nr. 21, sector 4"
+        ],
+        "latitude": 44.3822749,
+        "longitude": 26.1374434
     },
     {
         "title": "DRAGHICI ROBERT-DANIEL",
@@ -5388,6 +6756,18 @@
         "longitude": 26.0045072
     },
     {
+        "title": "BANATEANU SILVIU GEORGE",
+        "description": [
+            "Nr. Contract: A1373",
+            "Denumire furnizor: SC SANADOR SRL",
+            "Telefon: 021.9699",
+            "E-mail: frontdesk@sanador.ro",
+            "Adresa punct de lucru: Str Dimitrie Sergiu 26-28, Sector 1"
+        ],
+        "latitude": 44.4502809,
+        "longitude": 26.0822448
+    },
+    {
         "title": "BOANTA VALENTINA",
         "description": [
             "Nr. Contract: A1373",
@@ -5410,6 +6790,18 @@
         ],
         "latitude": 44.50976325,
         "longitude": 26.0840248418516
+    },
+    {
+        "title": "TURCU LILIANA NARCISA",
+        "description": [
+            "Nr. Contract: A1375",
+            "Denumire furnizor: CMI TURCU LILIANA NARCISA",
+            "Telefon: 021.330.01.81",
+            "E-mail: mihaelturcu@yahoo.co.uk",
+            "Adresa punct de lucru: Str. Dimitrie Cantemir nr. 21, bl. 4, sc. G, ap. 196, Sect. 4"
+        ],
+        "latitude": 44.4182615,
+        "longitude": 26.1044589
     },
     {
         "title": "NAICU IULIAN AGRIPA",
@@ -5832,6 +7224,18 @@
         "longitude": 26.0847182
     },
     {
+        "title": "BOICEA ADINA ZORITA",
+        "description": [
+            "Nr. Contract: A1394",
+            "Denumire furnizor: CMI BOICEA ADINA ZORITA",
+            "Telefon: 021/260.06.11 ; 0728.20.97.05",
+            "E-mail: adinaispas@yahoo.com",
+            "Adresa punct de lucru: Bld. Ing. Gheorghe Duca nr.10-22,  Sector 1"
+        ],
+        "latitude": 44.44819585,
+        "longitude": 26.0769318244856
+    },
+    {
         "title": "RADU BIANCA LOREDANA",
         "description": [
             "Nr. Contract: A1395",
@@ -5926,6 +7330,18 @@
         ],
         "latitude": 44.4421591,
         "longitude": 26.1324674
+    },
+    {
+        "title": "CRISTACHE NICOLETA",
+        "description": [
+            "Nr. Contract: A1406",
+            "Denumire furnizor: S.C. MEDICOVER SRL",
+            "Telefon: 021.9896",
+            "E-mail: office@medicover.ro",
+            "Adresa punct de lucru: Str. Sg. Constantin Ghercu nr.1A, Parter, Sect. 6"
+        ],
+        "latitude": 44.4450359,
+        "longitude": 26.0591881
     },
     {
         "title": "COSTACHE RUXANDRA",
@@ -6108,6 +7524,18 @@
         "longitude": 26.1275619
     },
     {
+        "title": "GEORGESCU ADRIANA",
+        "description": [
+            "Nr. Contract: A1419",
+            "Denumire furnizor: CMI GEORGESCU ADRIANA",
+            "Telefon: 0314326555",
+            "E-mail: cmbrancusi@yahoo.com",
+            "Adresa punct de lucru: Str. Valea Doftanei nr.113, parter, Sector 6"
+        ],
+        "latitude": 44.4178633,
+        "longitude": 26.00289715
+    },
+    {
         "title": "BUCUR ELENA",
         "description": [
             "Nr. Contract: A1420",
@@ -6166,6 +7594,18 @@
         ],
         "latitude": 44.4440635,
         "longitude": 26.1366324
+    },
+    {
+        "title": "MENNING CRISTINA",
+        "description": [
+            "Nr. Contract: A1428 ",
+            "Denumire furnizor: CMI MENNING CRISTINA",
+            "Telefon: 0213131700",
+            "E-mail: dr.kitty1976@yahoo.com",
+            "Adresa punct de lucru: Str. C.F.Robescu nr. 17, cabinet 3, parter, sector 3"
+        ],
+        "latitude": 44.4325586,
+        "longitude": 26.110167
     },
     {
         "title": "STOIAN ALINA MADALINA",
@@ -6276,6 +7716,18 @@
         "longitude": 26.1384185
     },
     {
+        "title": "KRENEK ANDREEA ELENA",
+        "description": [
+            "Nr. Contract: A1466",
+            "Denumire furnizor: CMI KRENEK ANDREEA ELENA",
+            "Telefon: 0213246980",
+            "E-mail: cmi_krenek@yahoo.ro",
+            "Adresa punct de lucru: Str. Pictor Gheorghe Tattarescu Nr. 10, Et. 1, Cab. 1, Sect. 3"
+        ],
+        "latitude": 44.4294795,
+        "longitude": 26.154535
+    },
+    {
         "title": "MARIN DORIANA ROSE MARIE",
         "description": [
             "Nr. Contract: A1467",
@@ -6312,6 +7764,18 @@
         "longitude": 26.1228002
     },
     {
+        "title": "CHIRILA DANIELA",
+        "description": [
+            "Nr. Contract: A1475",
+            "Denumire furnizor: CMI CHIRILA DANIELA",
+            "Telefon: 021.460.45.94",
+            "E-mail: cmi.dr.chirila@gmail.com",
+            "Adresa punct de lucru: Strada Ion VodA Viteazul nr. 15, sector 4"
+        ],
+        "latitude": 44.3892021,
+        "longitude": 26.1067731
+    },
+    {
         "title": "MUNTEANU ANGELA",
         "description": [
             "Nr. Contract: A1476",
@@ -6322,6 +7786,18 @@
         ],
         "latitude": 44.4539288,
         "longitude": 26.1156489
+    },
+    {
+        "title": "MARZA ANA MARIA",
+        "description": [
+            "Nr. Contract: A1477",
+            "Denumire furnizor: CMI MARZA ANA MARIA",
+            "Telefon: 0727.671.008",
+            "E-mail: anamaria_marza@yahoo.com",
+            "Adresa punct de lucru: Str. Dr. RAureanu nr. 3-5, parter, Sect. 5"
+        ],
+        "latitude": 44.4310147,
+        "longitude": 26.0956311
     },
     {
         "title": "SANDU ANCA GABRIELA",
@@ -6346,6 +7822,30 @@
         ],
         "latitude": 44.4305701,
         "longitude": 26.1151364301273
+    },
+    {
+        "title": "TOFAN  VALERIU RAZVAN",
+        "description": [
+            "Nr. Contract: A1488",
+            "Denumire furnizor: CMI TOFAN VALERIU RAZVAN",
+            "Telefon: 0745.310.301",
+            "E-mail: dr.tofan.vrt@gmail.com",
+            "Adresa punct de lucru: Str. Dr. Calistrat Grozovici nr. 6, bl. Policlinica RATB, et. 2, Cab. 61 si 62, Sect. 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
+        "title": "DUMITRIU MARIANA",
+        "description": [
+            "Nr. Contract: A1489",
+            "Denumire furnizor: CMI DUMITRIU MARIANA",
+            "Telefon: 0723.605.088",
+            "E-mail: cmidumitriu@gmail.com",
+            "Adresa punct de lucru: Strada Nada Florilor 1A Parter, Cabinet 2, sector 2"
+        ],
+        "latitude": 44.4598482,
+        "longitude": 26.1299651
     },
     {
         "title": "OBRETIN MARIA JEANA",
@@ -6444,6 +7944,18 @@
         "longitude": 26.0568944183507
     },
     {
+        "title": "DUMITRESCU LAURA MARIA",
+        "description": [
+            "Nr. Contract: A1532",
+            "Denumire furnizor: CMI DUMITRESCU LAURA MARIA",
+            "Telefon: 0314370630",
+            "E-mail: cmi.dr.dumitrescu@gmail.com",
+            "Adresa punct de lucru: Strada Pictor Gheorghe Tattarescu 2, Parter, Sector 3"
+        ],
+        "latitude": 44.4288244,
+        "longitude": 26.1527363
+    },
+    {
         "title": "RUSU SORINA ADRIANA",
         "description": [
             "Nr. Contract: A1534",
@@ -6454,6 +7966,42 @@
         ],
         "latitude": 44.4455576,
         "longitude": 26.1198018
+    },
+    {
+        "title": "BENTAN NATALIA ELEONORA MARIA",
+        "description": [
+            "Nr. Contract: A1541",
+            "Denumire furnizor: CMI BENTAN NATALIA ELEONORA MARIA",
+            "Telefon: 021.332.50.16",
+            "E-mail: drbentannatalia@yahoo.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, parter, cabinet nr. 2, sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
+        "title": "TICARAU ADRIANA",
+        "description": [
+            "Nr. Contract: A1544",
+            "Denumire furnizor: CMI TICARAU ADRIANA",
+            "Telefon: 021.332.50.16",
+            "E-mail: andraticarau@gmail.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, parter, cabinet nr.3,  sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
+        "title": "ZAMFIR ADRIANA",
+        "description": [
+            "Nr. Contract: A1545",
+            "Denumire furnizor: CMI ZAMFIR ADRIANA",
+            "Telefon: 021.332.50.16",
+            "E-mail: zamfir_1957@yahoo.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, parter, cabinet nr. 2, sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
     },
     {
         "title": "ERSCH DANIELA",
@@ -6514,6 +8062,18 @@
         ],
         "latitude": 44.4116567,
         "longitude": 26.1169327
+    },
+    {
+        "title": "KINN ANIELA IOANA",
+        "description": [
+            "Nr. Contract: A1560",
+            "Denumire furnizor: CMI KINN ANIELA IOANA",
+            "Telefon: 0741.41.25.30",
+            "E-mail: anielakinn@yahoo.com",
+            "Adresa punct de lucru: Calea Dudesti - Pantelimon nr.44, sect.3"
+        ],
+        "latitude": 44.4205762,
+        "longitude": 26.1343412
     },
     {
         "title": "MIHUTOIU MILENA-AURORA",
@@ -6804,6 +8364,18 @@
         "longitude": 26.0457589
     },
     {
+        "title": "SCUTELNICU ANA STEFANIA",
+        "description": [
+            "Nr. Contract: A1608",
+            "Denumire furnizor: CMI SCUTELNICU ANA STEFANIA",
+            "Telefon: 0723.627.301",
+            "E-mail: anastefania.scutelnicu@gmail.com",
+            "Adresa punct de lucru: Str. Piata Garii de Nord nr. 3, Sect. 1"
+        ],
+        "latitude": 44.44631205,
+        "longitude": 26.073689872606003
+    },
+    {
         "title": "MITRESCU ILEANA SIMONA",
         "description": [
             "Nr. Contract: A1611",
@@ -6814,6 +8386,18 @@
         ],
         "latitude": 44.4444761,
         "longitude": 26.0732277
+    },
+    {
+        "title": "MIZUMSCHI DANA MONICA",
+        "description": [
+            "Nr. Contract: A1612",
+            "Denumire furnizor: SOCIETATEA MEDICALA MIZUMSCHI SRL",
+            "Telefon: 0756046385,  0741315491",
+            "E-mail: cabinetmizumschi@yahoo.com, cabinet.mizumschi@gmail.com",
+            "Adresa punct de lucru: Str. Cricovul Dulce nr. 11, parter, Cab. 3, Sect. 4"
+        ],
+        "latitude": 44.3905214,
+        "longitude": 26.1144846
     },
     {
         "title": "GHITA VASILESCU IULIA",
@@ -6862,6 +8446,30 @@
         ],
         "latitude": 44.4324356,
         "longitude": 26.1407237
+    },
+    {
+        "title": "STANESCU VIVIANA MAGDALENA",
+        "description": [
+            "Nr. Contract: A1623",
+            "Denumire furnizor: SIKA ALUL MEDICAL SRL",
+            "Telefon: 0217803038",
+            "E-mail: receptiesikamedical@yahoo.com",
+            "Adresa punct de lucru: Str.Novaci nr.8 bl.P57, sc 3, ap.65, parter, Sect. 5"
+        ],
+        "latitude": 44.4173315,
+        "longitude": 26.0650046
+    },
+    {
+        "title": "GEORGESCU NICOLAE",
+        "description": [
+            "Nr. Contract: A1624",
+            "Denumire furnizor: CMI GEORGESCU NICOLAE",
+            "Telefon: 031.432.65.55",
+            "E-mail: cmbrancusi@yahoo.com",
+            "Adresa punct de lucru: Str. Valea Doftanei nr. 113, Parter, Sect. 6"
+        ],
+        "latitude": 44.4178633,
+        "longitude": 26.00289715
     },
     {
         "title": "CAZACEANU MIRCEA BOGDAN",
@@ -6948,6 +8556,42 @@
         "longitude": 26.164746
     },
     {
+        "title": "ALEXE ALEXANDRU",
+        "description": [
+            "Nr. Contract: A1639",
+            "Denumire furnizor: CMI ALEXE ALEXANDRU",
+            "Telefon: 0727.262.698",
+            "E-mail: dr.alexealexandru@yahoo.com",
+            "Adresa punct de lucru: Bd. Pictor Nicolae Grigorescu nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "LEPADAT MIRCEA-LUCIAN",
+        "description": [
+            "Nr. Contract: A1643",
+            "Denumire furnizor: MEDVERDI SRL",
+            "Telefon: 0213124529",
+            "E-mail: iuliamarialungu@yahoo.com",
+            "Adresa punct de lucru: Calea Chitilei nr. 251A, parter, apartament 2, sector 1"
+        ],
+        "latitude": 44.4971448,
+        "longitude": 25.9989511
+    },
+    {
+        "title": "CONSTANTIN BIRSAN NUTI",
+        "description": [
+            "Nr. Contract: A1645",
+            "Denumire furnizor: CMI CONSTANTIN BIRSAN NUTI",
+            "Telefon: 0734.299.190",
+            "E-mail: cmidrcbn@yahoo.com, cbn_cbn78@yahoo.com",
+            "Adresa punct de lucru: Bd. Ing. Gheorghe Duca 10-22, Et. P, Cam. 1-6, Ap. 1, Sect. 1"
+        ],
+        "latitude": 44.44819585,
+        "longitude": 26.0769318244856
+    },
+    {
         "title": "CRAINICEANU MIHAELA",
         "description": [
             "Nr. Contract: A1647",
@@ -7008,6 +8652,18 @@
         "longitude": 26.0911938
     },
     {
+        "title": "COMNEA LAURA",
+        "description": [
+            "Nr. Contract: A1658",
+            "Denumire furnizor: CMI COMNEA LAURA",
+            "Telefon: 0723.233.908",
+            "E-mail: lauraherdea@yahoo.com",
+            "Adresa punct de lucru: Strada Pictor Gheorghe Tatarescu 2, Etaj parter, Cabinet nr.4, Sector 3,"
+        ],
+        "latitude": 44.4288244,
+        "longitude": 26.1527363
+    },
+    {
         "title": "CONSTANTINESCU MARIANTI ADRIANA",
         "description": [
             "Nr. Contract: A1661",
@@ -7018,6 +8674,18 @@
         ],
         "latitude": 44.4449048,
         "longitude": 26.1295739
+    },
+    {
+        "title": "ENACHE HORIA EMERALD",
+        "description": [
+            "Nr. Contract: A1663",
+            "Denumire furnizor: CMI ENACHE HORIA EMERALD",
+            "Telefon: 021.211.39.21 / 0765.272.341",
+            "E-mail: horiae@gmail.com ",
+            "Adresa punct de lucru: Str. Arh. Grigore Ionescu nr. 61, bl T75, sc. 1, et. P, ap. 1, Sect. 2"
+        ],
+        "latitude": 44.4572389,
+        "longitude": 26.1222483
     },
     {
         "title": "STEFAN IONUT SEPTIMIU",
@@ -7054,6 +8722,30 @@
         ],
         "latitude": 44.4234096,
         "longitude": 26.1161021
+    },
+    {
+        "title": "GRINDEI RADU",
+        "description": [
+            "Nr. Contract: A1679",
+            "Denumire furnizor: CMI GRINDEI RADU",
+            "Telefon: 0744.311.444",
+            "E-mail: grindei.radu@gmail.com",
+            "Adresa punct de lucru: Bd Pictor Nicolae Grigorescu 41, Et 1, Cabinet 113, Sect 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "IOSUP MARANA ANDA",
+        "description": [
+            "Nr. Contract: A1680",
+            "Denumire furnizor: CMI IOSUP MARANA ANDA",
+            "Telefon: 0787.604.549, 021/341.30.14",
+            "E-mail: marana.iosup@yahoo.com",
+            "Adresa punct de lucru: Str. Pictor Nicolae Grigorescu Nr. 41, Sect. 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
     },
     {
         "title": "VASSI MARILENA",
@@ -7152,6 +8844,18 @@
         "longitude": 26.1380025
     },
     {
+        "title": "TRIFU CAMELIA ALINA",
+        "description": [
+            "Nr. Contract: A1699",
+            "Denumire furnizor: CMI TRIFU CAMELIA ALINA",
+            "Telefon: 0213325016",
+            "E-mail: cmidralinatrifu@gmail.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, parter, cabinet nr. 4,  sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
         "title": "PANTELIMONESCU VIORICA ANISOARA",
         "description": [
             "Nr. Contract: A1700",
@@ -7210,6 +8914,54 @@
         ],
         "latitude": 44.4409501,
         "longitude": 26.1435809
+    },
+    {
+        "title": "STOLNICU IOAN CATALIN",
+        "description": [
+            "Nr. Contract: A1707",
+            "Denumire furnizor: CMI STOLNICU IOAN CATALIN",
+            "Telefon: 0217780809",
+            "E-mail: catalin.stolnicu@yahoo.com",
+            "Adresa punct de lucru: Str.Drumul Taberei nr.75, Bl TS39, scara A, parter, ap3, Sector 6"
+        ],
+        "latitude": 44.4207553,
+        "longitude": 26.0208643
+    },
+    {
+        "title": "BALAN RODICA CAMELIA",
+        "description": [
+            "Nr. Contract: A1708",
+            "Denumire furnizor: CMI BALAN RODICA CAMELIA",
+            "Telefon: 0213325016",
+            "E-mail: cmi_balan_camelia@yahoo.com",
+            "Adresa punct de lucru: Strada Spatar Preda Buzescu nr. 34, parter, cabinet nr. 1,  sector 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
+        "title": "MUNTEANU GEANINA",
+        "description": [
+            "Nr. Contract: A1716",
+            "Denumire furnizor: FORTUNA MEDICAL CENTER SRL",
+            "Telefon: 0217462121",
+            "E-mail: geanimun@gmail.com",
+            "Adresa punct de lucru: Strada Drumul Taberei 124-126 parter, cabinet lot 2, Sector 6"
+        ],
+        "latitude": 44.4170608,
+        "longitude": 26.0276018
+    },
+    {
+        "title": "MINDRUT LIGIA MIHAELA",
+        "description": [
+            "Nr. Contract: A1716",
+            "Denumire furnizor: FORTUNA MEDICAL CENTER SRL",
+            "Telefon: 0217462121",
+            "E-mail: geanimun@gmail.com",
+            "Adresa punct de lucru: Strada Drumul Taberei 124-126 parter, cabinet lot 2, Sector 6"
+        ],
+        "latitude": 44.4170608,
+        "longitude": 26.0276018
     },
     {
         "title": "STOICHITA ELENA GABRIELA",
@@ -7320,6 +9072,18 @@
         "longitude": 26.0965657
     },
     {
+        "title": "MARINCAS DANIELA",
+        "description": [
+            "Nr. Contract: A1738",
+            "Denumire furnizor: SC STELLA MARIS SRL",
+            "Telefon: 0772098353",
+            "E-mail: marincasro67@gmail.com",
+            "Adresa punct de lucru: Str. Drumul Sarii nr.108, Sector 6"
+        ],
+        "latitude": 44.425679,
+        "longitude": 26.060174
+    },
+    {
         "title": "BACIU FLORENTINA",
         "description": [
             "Nr. Contract: A1739",
@@ -7356,6 +9120,18 @@
         "longitude": 26.0805958
     },
     {
+        "title": "BABOI ANTOANETA DENISA",
+        "description": [
+            "Nr. Contract: A1741",
+            "Denumire furnizor: SC DR. B.D. MEDFAM SRL",
+            "Telefon: 021.450.03.96",
+            "E-mail: denisa.baboi@gmail.com",
+            "Adresa punct de lucru: Str. Prelungirea Ghencea nr.27, parter, camera 4, Sector 6"
+        ],
+        "latitude": 44.4133371,
+        "longitude": 26.0285794
+    },
+    {
         "title": "SANDU GEORGETA",
         "description": [
             "Nr. Contract: A1743",
@@ -7366,6 +9142,18 @@
         ],
         "latitude": 44.3819192,
         "longitude": 26.1380025
+    },
+    {
+        "title": "DRAGNE CRISTINA",
+        "description": [
+            "Nr. Contract: A1744",
+            "Denumire furnizor: CMI DRAGNE CRISTINA",
+            "Telefon: 0213252454",
+            "E-mail: cmi.dr.dragne@gmail.com",
+            "Adresa punct de lucru: Bd. Basarabiei nr. 62A, sector 2"
+        ],
+        "latitude": 44.4324562,
+        "longitude": 26.14592
     },
     {
         "title": "SCHITEANU ADRIANA-MADALINA",
@@ -7402,6 +9190,18 @@
         ],
         "latitude": 44.4350429,
         "longitude": 26.0874559
+    },
+    {
+        "title": "BLEBEA ANCA",
+        "description": [
+            "Nr. Contract: A1750",
+            "Denumire furnizor: SC OLIVIA MEDICAL CENTER SRL",
+            "Telefon: 0213321886",
+            "E-mail: oliviamedicalcenter@gmail.com",
+            "Adresa punct de lucru: Str Cricovul Dulce 11, Cab 2, Sect 4"
+        ],
+        "latitude": 44.3905214,
+        "longitude": 26.1144846
     },
     {
         "title": "MIU ROXANA",
@@ -7716,6 +9516,18 @@
         "longitude": 26.105649
     },
     {
+        "title": "DUMITRASCU MIRELA AURELIA",
+        "description": [
+            "Nr. Contract: A1794",
+            "Denumire furnizor: SC MIDAMED CONSULT SRL",
+            "Telefon: 021.367.31.81",
+            "E-mail: dumitrascu_mirela74@yahoo.com",
+            "Adresa punct de lucru: Str. Eforie Nr. 4, Pozitia 47, Et. 1, Sect. 5"
+        ],
+        "latitude": 44.433929,
+        "longitude": 26.0961604
+    },
+    {
         "title": "IGNATENCO LILIANA",
         "description": [
             "Nr. Contract: A1795",
@@ -7788,6 +9600,18 @@
         "longitude": 26.0356093806573
     },
     {
+        "title": "ENESCU ELENA ALICE",
+        "description": [
+            "Nr. Contract: A1802",
+            "Denumire furnizor: SC SANAMED PROFESIONAL CLINIC SRL",
+            "Telefon: 021.745.79.87",
+            "E-mail: alice_birca@yahoo.com",
+            "Adresa punct de lucru: Str. Drumul Taberei nr. 20, bl. C2, sc. 4, parter, ap.109, Sect. 6"
+        ],
+        "latitude": 44.4252805,
+        "longitude": 26.049485
+    },
+    {
         "title": "POPESCU VLADIMIR",
         "description": [
             "Nr. Contract: A1803",
@@ -7800,6 +9624,18 @@
         "longitude": 26.0568944183507
     },
     {
+        "title": "BUBULAC LUCIA",
+        "description": [
+            "Nr. Contract: A1804",
+            "Denumire furnizor: SC GLOORIA MED SRL",
+            "Telefon: 021.410.92.84/031.805.21.80",
+            "E-mail: luciabubulacmed@yahoo.com",
+            "Adresa punct de lucru: Str. Eroii Sanitari 35B, Parter, Cab 3, Sect 5"
+        ],
+        "latitude": 44.4340991,
+        "longitude": 26.0737644
+    },
+    {
         "title": "NICOLAE LUMINITA",
         "description": [
             "Nr. Contract: A1805",
@@ -7807,6 +9643,30 @@
             "Telefon: 0744.236.606",
             "E-mail: lummedlife@gmail.com",
             "Adresa punct de lucru: Bd. Nicolae Grigorescu nr.41, Corp A, Cabinet medical nr.47, Et.1, Sector 3"
+        ],
+        "latitude": 44.4205518,
+        "longitude": 26.164746
+    },
+    {
+        "title": "ILIAN ROXANA",
+        "description": [
+            "Nr. Contract: A1806",
+            "Denumire furnizor: SC MEDICINA DE FAMILIE DR. ANDONE SRL",
+            "Telefon: 021.332.18.86",
+            "E-mail: andone_georgeta@yahoo.com",
+            "Adresa punct de lucru: Str Cricovul Dulce 11, Sector 4"
+        ],
+        "latitude": 44.3905214,
+        "longitude": 26.1144846
+    },
+    {
+        "title": "BADEA ROXANA PATRICIA",
+        "description": [
+            "Nr. Contract: A1807",
+            "Denumire furnizor: CMI BADEA ROXANA PATRICIA",
+            "Telefon: 0770511091",
+            "E-mail: dr.patricia.badea@gmail.com",
+            "Adresa punct de lucru: Str Pictor Nicolae Grigorescu 41, Bloc Corp A, Et 1, Ap91 si 92, Sector 3"
         ],
         "latitude": 44.4205518,
         "longitude": 26.164746
@@ -7822,6 +9682,42 @@
         ],
         "latitude": 44.4518351,
         "longitude": 26.1028326
+    },
+    {
+        "title": "ZODIANU ANDREEA ANAMARIA",
+        "description": [
+            "Nr. Contract: A1809",
+            "Denumire furnizor: CMI ZODIANU ANDREEA ANAMARIA",
+            "Telefon: 021.318.34.10 / 217",
+            "E-mail: andreeazodianu@gmail.com",
+            "Adresa punct de lucru: Strada Dr. Calistrat Grozovici nr. 6, Corp B, Et. 2, Cabinet 43 si 44, Sect. 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
+        "title": "TIRA MARIA RODICA",
+        "description": [
+            "Nr. Contract: A1810",
+            "Denumire furnizor: CMI TIRA MARIA RODICA",
+            "Telefon: 0217961263",
+            "E-mail: mariarodica2000@yahoo.com",
+            "Adresa punct de lucru: Bulevard Schitul MAgureanu 27-33, Camera 16, parter, Sector 1"
+        ],
+        "latitude": 44.4378406,
+        "longitude": 26.0877131274259
+    },
+    {
+        "title": "TIRA MARIA RODICA",
+        "description": [
+            "Nr. Contract: A1810",
+            "Denumire furnizor: CMI TIRA MARIA RODICA ",
+            "Telefon: 0212553323",
+            "E-mail: mariarodica2000@yahoo.com",
+            "Adresa punct de lucru: Strada Sold.Savu Marin 27, etaj 2, cabinet 12, camera 5, Sector 2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
     },
     {
         "title": "ILINA NICOLAE NARCIS",
@@ -7846,6 +9742,30 @@
         ],
         "latitude": 44.3872085,
         "longitude": 26.0975248
+    },
+    {
+        "title": "VASILE LILIANA",
+        "description": [
+            "Nr. Contract: A1817",
+            "Denumire furnizor: SC BAU M.A.N. CONSTRUCT SRL",
+            "Telefon: 031.432.6555",
+            "E-mail: cmbrancusi@yahoo.com",
+            "Adresa punct de lucru: Str Valea Doftanei nr.113, Sector 6"
+        ],
+        "latitude": 44.4178633,
+        "longitude": 26.00289715
+    },
+    {
+        "title": "OPRIS GABRIELA MIRELA",
+        "description": [
+            "Nr. Contract: A1817",
+            "Denumire furnizor: SC BAU M.A.N. CONSTRUCT SRL",
+            "Telefon: 031.432.65.55",
+            "E-mail: cmbrancusi@yahoo.com",
+            "Adresa punct de lucru: Str Valea Doftanei nr.113, Sector 6"
+        ],
+        "latitude": 44.4178633,
+        "longitude": 26.00289715
     },
     {
         "title": "NAE ROXANA IOANA",
@@ -8136,6 +10056,30 @@
         "longitude": 26.1095372
     },
     {
+        "title": "POPESCU IRINA ELENA",
+        "description": [
+            "Nr. Contract: A1861",
+            "Denumire furnizor: SC MNT HEALTHCARE EUROPE SRL",
+            "Telefon: 021.794.87.31",
+            "E-mail: office@neolife.ro",
+            "Adresa punct de lucru: Str. Ficusului nr. 40, Sect. 1"
+        ],
+        "latitude": 44.49300825,
+        "longitude": 26.085866290561057
+    },
+    {
+        "title": "PETRE MARILENA LILIANA",
+        "description": [
+            "Nr. Contract: A1867",
+            "Denumire furnizor: SC CMI DOCTOR BEJAN LUMINITA & MEDICINA DE FAMILIE SRL",
+            "Telefon: 021.332.50.16",
+            "E-mail: lilipetrelili@yahoo.com",
+            "Adresa punct de lucru: Str. Spatar Preda Buzescu nr. 34, Sect. 4"
+        ],
+        "latitude": 44.3934255,
+        "longitude": 26.0994687
+    },
+    {
         "title": "ONEL OANA ELENA",
         "description": [
             "Nr. Contract: A1870",
@@ -8184,6 +10128,18 @@
         "longitude": 26.0710703483346
     },
     {
+        "title": "ILIE ALINA-LORENA",
+        "description": [
+            "Nr. Contract: A1877",
+            "Denumire furnizor: CABINET MEDICAL DR. ILIE ALINA-LORENA SRL",
+            "Telefon: 031.434.26.47",
+            "E-mail: lorenaalina2005@yahoo.com",
+            "Adresa punct de lucru: Str. Dr. Calistrat Grozovici nr. 6, Corp B, Et. 2, Cam. 49-50, Sect. 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
+    },
+    {
         "title": "CRACIUN NICODIN MARIA MARCELA",
         "description": [
             "Nr. Contract: A1878",
@@ -8194,6 +10150,30 @@
         ],
         "latitude": 44.48075,
         "longitude": 26.03345
+    },
+    {
+        "title": "TUFA IOAN DANUT",
+        "description": [
+            "Nr. Contract: A1879",
+            "Denumire furnizor: SC CABINET MEDICAL DR TUFA SRL ",
+            "Telefon: 0722.237.416 / 021.231.42.32",
+            "E-mail: dantufa@yahoo.fr",
+            "Adresa punct de lucru: Str. Giuseppe Garibaldi nr. 20, Cab. 4 (camera 17), Sect. 2"
+        ],
+        "latitude": 44.4645327,
+        "longitude": 26.1058258
+    },
+    {
+        "title": "DOGARU VIORICA",
+        "description": [
+            "Nr. Contract: A1880",
+            "Denumire furnizor: M.F. VIORICA DOGARU SRL",
+            "Telefon: 021.332.18.86",
+            "E-mail: dogaru.v@gmail.com",
+            "Adresa punct de lucru: Str. Cricovul  Dulce nr. 11, Sect.  4"
+        ],
+        "latitude": 44.3905214,
+        "longitude": 26.1144846
     },
     {
         "title": "EREMIA MARIA",
@@ -8230,6 +10210,18 @@
         ],
         "latitude": 44.4234204,
         "longitude": 26.1275619
+    },
+    {
+        "title": "SOROCEANU ALINA LILIANA",
+        "description": [
+            "Nr. Contract: A1884",
+            "Denumire furnizor: CMI SOROCEANU ALINA LILIANA",
+            "Telefon: 0374.905.455",
+            "E-mail: dr.soroceanualina@gmail.com",
+            "Adresa punct de lucru: Str. Dr. Grozovici nr. 6, Et. 1, Corp B, Pozitia 45, Sect. 2"
+        ],
+        "latitude": 44.453972,
+        "longitude": 26.1153666
     },
     {
         "title": "DELEANU MARIA",
@@ -8278,6 +10270,18 @@
         ],
         "latitude": 44.4612892,
         "longitude": 26.1284696
+    },
+    {
+        "title": "NEAMTU GELU",
+        "description": [
+            "Nr. Contract: A1889",
+            "Denumire furnizor: GELU NEAMTU FAMILY MED SRL",
+            "Telefon: 0723.392.476",
+            "E-mail: drneluneamtu@yahoo.com",
+            "Adresa punct de lucru: Str. Focsani nr. 5 Bl. M181, Sc. 2, Ap. 55-56, Cab. 3, Parter, Sect. 5"
+        ],
+        "latitude": 44.4105525,
+        "longitude": 26.0669924
     },
     {
         "title": "MARCEAN RODICA AURORA",
@@ -8338,6 +10342,18 @@
         ],
         "latitude": 44.4105525,
         "longitude": 26.0669924
+    },
+    {
+        "title": "PRUNA ROXANA MADALINA",
+        "description": [
+            "Nr. Contract: A1896",
+            "Denumire furnizor: SC MEDFAMNUTRIDIA SRL",
+            "Telefon: 021.647.68.85",
+            "E-mail: alexp8926@gmail.com",
+            "Adresa punct de lucru: Str. Pictor Gheorghe Tattarescu nr. 2, Et. 1, Cam. 11, 12, 13, Sect. 3"
+        ],
+        "latitude": 44.4288244,
+        "longitude": 26.1527363
     },
     {
         "title": "SORESCU VICTORIA AURELIA",
@@ -8520,6 +10536,18 @@
         "longitude": 26.1156522
     },
     {
+        "title": "ANCATEU GABRIELA",
+        "description": [
+            "Nr. Contract: A1918",
+            "Denumire furnizor: DIET ZONE DR. G SRL",
+            "Telefon: 0787.211.310",
+            "E-mail: cabinetgreenfield@gmail.com",
+            "Adresa punct de lucru: Str. Padurea Neagra nr.56, bl. 04, Corp A si B, et. P, ap. 1-3, Sect. 1"
+        ],
+        "latitude": 44.5312729,
+        "longitude": 26.1024089
+    },
+    {
         "title": "GHERGHE SANDA MIMI",
         "description": [
             "Nr. Contract: A1920",
@@ -8580,6 +10608,18 @@
         "longitude": 26.105649
     },
     {
+        "title": "NEGUTESCU SORINA ALEXANDRA",
+        "description": [
+            "Nr. Contract: A1925",
+            "Denumire furnizor: CMI NEGUTESCU SORINA ALEXANDRA",
+            "Telefon: 021.324.19.59 / 0770.374.792",
+            "E-mail: sorina.negutescu@gmail.com",
+            "Adresa punct de lucru: Str. Pictor Gheorghe Tattarescu nr. 2, Et. 1, Cam. 1 si 2, Sect. 3"
+        ],
+        "latitude": 44.4288244,
+        "longitude": 26.1527363
+    },
+    {
         "title": "STOICESCU LUCRETIA MARIA",
         "description": [
             "Nr. Contract: A1926",
@@ -8616,6 +10656,18 @@
         "longitude": 26.1448053
     },
     {
+        "title": "BAICU IRINA",
+        "description": [
+            "Nr. Contract: A1929",
+            "Denumire furnizor: MEDICUL TAU - MEDICINA DE FAMILIE SRL",
+            "Telefon: 0214900164",
+            "E-mail: ana03.dumitru@gmail.com",
+            "Adresa punct de lucru: Str. Pravat 12, pozitia nr.14, parter, cabinet nr.6, ector 6"
+        ],
+        "latitude": 44.4247561,
+        "longitude": 26.041758
+    },
+    {
         "title": "PRISTAVU MONA",
         "description": [
             "Nr. Contract: A1931",
@@ -8640,6 +10692,18 @@
         "longitude": 26.1002438283981
     },
     {
+        "title": "ONCESCU CEZARINA ELENA",
+        "description": [
+            "Nr. Contract: A1933",
+            "Denumire furnizor: CEZA MED FAMILY SRL",
+            "Telefon: 0724020032",
+            "E-mail: dr.oncescucezarina@yahoo.com",
+            "Adresa punct de lucru: Strada Focsani nr. 5 bl. M181, sc.2, parter, ap. 55-56, cabinet nr. 2, sector 5"
+        ],
+        "latitude": 44.4105525,
+        "longitude": 26.0669924
+    },
+    {
         "title": "ADAM SILVIA",
         "description": [
             "Nr. Contract: A1934",
@@ -8650,6 +10714,30 @@
         ],
         "latitude": 44.4185868,
         "longitude": 26.12934
+    },
+    {
+        "title": "AGAPE GABRIELA CARMEN",
+        "description": [
+            "Nr. Contract: A1935",
+            "Denumire furnizor: DR. AGAPE GABRIELA CARMEN MEDICAL SRL",
+            "Telefon: 0731101151",
+            "E-mail: gabriela.agape@yahoo.com",
+            "Adresa punct de lucru: Str.Soldat Savu Marin nr.27 Et.1, Cab.7 ,sect.2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
+    },
+    {
+        "title": "CIFTCI-CRACIUN LICA",
+        "description": [
+            "Nr. Contract: A1935",
+            "Denumire furnizor: DR. AGAPE GABRIELA CARMEN MEDICAL SRL",
+            "Telefon: 0731101151",
+            "E-mail: gabriela.agape@yahoo.com",
+            "Adresa punct de lucru: Str.Soldat Savu Marin nr.27 Et.1, Ap.8, Cab.5 ,sect.2"
+        ],
+        "latitude": 44.441662,
+        "longitude": 26.1583371
     },
     {
         "title": "RADUCANU CRISTIAN NICOLAE",
@@ -8686,6 +10774,18 @@
         ],
         "latitude": 44.4247561,
         "longitude": 26.041758
+    },
+    {
+        "title": "VASILE MARIUS AURELIAN",
+        "description": [
+            "Nr. Contract: A1945",
+            "Denumire furnizor: CMI VASILE MARIUS AURELIAN",
+            "Telefon: 021.682.4567",
+            "E-mail: doc.marius.vasile25@gmail.com",
+            "Adresa punct de lucru: Str. Raul Sadului nr.1, Et. 1, Cab. 6, Sect. 4"
+        ],
+        "latitude": 44.379780499999995,
+        "longitude": 26.122525928417645
     },
     {
         "title": "ZOITANU RALUCA DANA",
@@ -8734,6 +10834,18 @@
         ],
         "latitude": 44.4330283,
         "longitude": 26.0498274
+    },
+    {
+        "title": "ALEXANDRESCU DANIELA MARIA",
+        "description": [
+            "Nr. Contract: A1950",
+            "Denumire furnizor: CMI ALEXANDRESCU DANIELA MARIA",
+            "Telefon: 0751.861.379",
+            "E-mail: scmalexandrescu@gmail.com",
+            "Adresa punct de lucru: Str. Independentei nr. 290, Bl. P7, Parter, Sect. 6"
+        ],
+        "latitude": 44.446025750000004,
+        "longitude": 26.052237926831538
     },
     {
         "title": "IONESCU DELIA MARINA",
@@ -8796,6 +10908,18 @@
         "longitude": 26.053859
     },
     {
+        "title": "DOBRE ANCA LAVINIA",
+        "description": [
+            "Nr. Contract: A1959",
+            "Denumire furnizor: CMI DOBRE ANCA LAVINIA",
+            "Telefon: 021.794.46.39",
+            "E-mail: cmiancadobre@gmail.com",
+            "Adresa punct de lucru: Str. Dr. Carol Davila nr. 101, Et. 1, Cam. 16, Sect. 5"
+        ],
+        "latitude": 44.4364675,
+        "longitude": 26.0682143
+    },
+    {
         "title": "POPESCU TATIANA",
         "description": [
             "Nr. Contract: A1960",
@@ -8808,6 +10932,18 @@
         "longitude": 26.0421921016931
     },
     {
+        "title": "DEMETER ANDA IOANA",
+        "description": [
+            "Nr. Contract: A1961",
+            "Denumire furnizor: SC DRAS MEDICAL INT SRL",
+            "Telefon: 021/4448884",
+            "E-mail: cabinetdrasmedical@gmail.com",
+            "Adresa punct de lucru: Str.Drumul Taberei nr.124, Complex A16, sector 6"
+        ],
+        "latitude": 44.4170608,
+        "longitude": 26.0276018
+    },
+    {
         "title": "DUMEA ILEANA NICOLETA",
         "description": [
             "Nr. Contract: A1962",
@@ -8818,6 +10954,18 @@
         ],
         "latitude": 44.4234204,
         "longitude": 26.1275619
+    },
+    {
+        "title": "CAMARASESCU RALUCA",
+        "description": [
+            "Nr. Contract: A1963",
+            "Denumire furnizor: FIXMED PROCONSULT SRL",
+            "Telefon: 0729.241.062",
+            "E-mail: fixmedproconsult@gmail.com",
+            "Adresa punct de lucru: Str. C.F. Robescu nr.17, Cabinet nr.1, parter, Camera 1, Sector 3"
+        ],
+        "latitude": 44.4325586,
+        "longitude": 26.110167
     },
     {
         "title": "CAMARASESCU RALUCA",
@@ -8940,6 +11088,18 @@
         "longitude": 26.1637929
     },
     {
+        "title": "MELNIC MIHAIL",
+        "description": [
+            "Nr. Contract: A1981",
+            "Denumire furnizor: CMI MELNIC MIHAIL",
+            "Telefon: 0772.131.008",
+            "E-mail: melnicmd@yahoo.com",
+            "Adresa punct de lucru: Str. Marasti nr. 63, Pavilion C, et. 2, Camera 3, Sect. 1"
+        ],
+        "latitude": 44.47398295,
+        "longitude": 26.069550372732294
+    },
+    {
         "title": "ROMANESCU VLAD",
         "description": [
             "Nr. Contract: A1984",
@@ -9058,6 +11218,18 @@
         ],
         "latitude": 44.4349953,
         "longitude": 26.0253700871122
+    },
+    {
+        "title": "GEORGESCU DORINA NELA",
+        "description": [
+            "Nr. Contract: A1994 ",
+            "Denumire furnizor: DR. GEORGESCU DORINA MEDICAL SRL",
+            "Telefon: 021.324.69.80 / 0744.318.346",
+            "E-mail: cmidorinageorgescu@yahoo.com",
+            "Adresa punct de lucru: Str. Pictor Gheorghe Tatarascu nr. 10, et.1, Cabinet 1, Sect. 3"
+        ],
+        "latitude": 44.4294795,
+        "longitude": 26.154535
     },
     {
         "title": "MARIN ANA MARIA",
@@ -9444,6 +11616,18 @@
         "longitude": 26.0371929011073
     },
     {
+        "title": "CIOCIRLAN CATALINA",
+        "description": [
+            "Nr. Contract: CA2048 ",
+            "Denumire furnizor: MEDCENTER SRL",
+            "Telefon: 031.403.20.30 ",
+            "E-mail: contact@medcenter.ro",
+            "Adresa punct de lucru: Str. Col. Iosif Albu nr. 62A, Parter, Sect. 3"
+        ],
+        "latitude": 44.4169964,
+        "longitude": 26.1771673
+    },
+    {
         "title": "TIPLIC EMMA",
         "description": [
             "Nr. Contract: CA2049",
@@ -9550,6 +11734,18 @@
         ],
         "latitude": 44.4494363,
         "longitude": 26.1009619
+    },
+    {
+        "title": "ALEXANDRU GEANINA MADALINA",
+        "description": [
+            "Nr. Contract: CA2060",
+            "Denumire furnizor: SC CENTRUL MEDICAL UNIREA SRL",
+            "Telefon: 021/9268",
+            "E-mail: office@reginamaria.ro",
+            "Adresa punct de lucru: Bd. Doamna Ghica nr.135, Sector 2"
+        ],
+        "latitude": 44.4602486,
+        "longitude": 26.1356456
     },
     {
         "title": "MIU OANA ADRIANA",
