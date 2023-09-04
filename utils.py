@@ -52,6 +52,7 @@ def extract_street_name_and_number(address):
         returnAddress = f"{returnAddress}, {numberMatch.group(2)}"
 
     # return the parsed address
+    # TODO: we could add the sector to the address
     return f"{returnAddress}, Bucuresti"
 
 # Get coordinates using OSM
@@ -61,6 +62,7 @@ def validate_and_get_coordinates(geolocator, address):
         if location:
             return location.latitude, location.longitude
         else:
+            # TODO: in case we don't have a match, we could try to remove the street type
             print(f"Location not available for '{address}'")
             return None, None
     except Exception as e:

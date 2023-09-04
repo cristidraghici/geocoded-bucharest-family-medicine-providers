@@ -47,7 +47,9 @@ if not os.path.exists(input_file):
 df = pd.read_excel(input_file, sheet_name)
 
 # Add the new columns (parsed_address in case we need to manually change the address, the latitude and longitude)
-for column in ['parsed_address', 'latitude', 'longitude']:
+parsed_address = 'parsed_address' # column containing the result of `extract_street_name_and_number`
+manual_address = 'manual_address' # column containing the value of parsed_address by default which can manually be changed (will only be updated manually after being set)
+for column in [parsed_address, manual_address, 'latitude', 'longitude']:
     if column not in df.columns:
         df[column] = None
 
@@ -55,13 +57,17 @@ if args.addresses:
     # Parse the address and get an OSM searchable value (street name and street number)
     for index, row in df.iterrows():
         if pd.notna(row[address_column]):
-            df.at[index, 'parsed_address'] = utils.extract_street_name_and_number(row[address_column])
+            street_name_and_number = utils.extract_street_name_and_number(row[address_column])
+            df.at[index, parsed_address] = street_name_and_number
+
+            if pd.isna(row[manual_address]):
+                df.at[index, manual_address] = street_name_and_number
 
 if args.geocodes:
     # Use OSM to get the latitude and longitude of each of the addresses
     geolocator = Nominatim(user_agent='address_validator')
     for index, row in df.iterrows():
-        address = row['parsed_address']
+        address = row[manual_address]
         if pd.isna(row['latitude']) or pd.isna(row['longitude']):
             latitude, longitude = utils.validate_and_get_coordinates(geolocator, address)
 
@@ -94,7 +100,7 @@ if args.json:
     for index, row in filtered_df.iterrows():
         entity = {
             "title": unidecode(row[json_title_column]),
-            "description": [f"{header}: {unidecode(row[header])}" for header in column_headers[0:] if header not in [json_title_column, 'parsed_address', 'latitude', 'longitude']],
+            "description": [f"{header}: {unidecode(row[header])}" for header in column_headers[0:] if header not in [json_title_column, parsed_address, manual_address, 'latitude', 'longitude']],
             "latitude": row['latitude'],
             "longitude": row['longitude']
         }
