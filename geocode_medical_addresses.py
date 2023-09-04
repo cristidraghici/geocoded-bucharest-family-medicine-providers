@@ -24,12 +24,19 @@ input_file = os.path.join(source_directory, destination_excel_file)
 # Read the arguments from the command line
 parser = argparse.ArgumentParser(description='Parse and save with geocoding the list of family medicine offices in Bucharest')
 parser.add_argument('--dev', action='store_true', help='in development mode, only the first 5 addresses are looked up in Nominatim')
-parser.add_argument('--excel', action='store_true', help='parse the initial excel source and add the script specific columns and values')
+parser.add_argument('--addresses', action='store_true', help='get the clean address if not set in the custom address column')
+parser.add_argument('--geocodes', action='store_true', help='get the latitude and longitude where there are not set in the custom columns')
+parser.add_argument('--excel', action='store_true', help='save the data in the excel format')
 parser.add_argument('--json', action='store_true', help='save the data in json format')
 args = parser.parse_args()
 
 if not any(vars(args).values()):
     parser.print_help()
+    sys.exit(0)
+
+# ensure we have a save function
+if not args.json and not args.excel:
+    print("No save function selected. Exiting...")
     sys.exit(0)
 
 if not os.path.exists(input_file):
@@ -39,17 +46,18 @@ if not os.path.exists(input_file):
 # Open the excel file
 df = pd.read_excel(input_file, sheet_name)
 
-if args.excel:
-    # Add the new columns (parsed_address in case we need to manually change the address, the latitude and longitude)
-    for column in ['parsed_address', 'latitude', 'longitude']:
-        if column not in df.columns:
-            df[column] = None
+# Add the new columns (parsed_address in case we need to manually change the address, the latitude and longitude)
+for column in ['parsed_address', 'latitude', 'longitude']:
+    if column not in df.columns:
+        df[column] = None
 
+if args.addresses:
     # Parse the address and get an OSM searchable value (street name and street number)
     for index, row in df.iterrows():
         if pd.notna(row[address_column]):
             df.at[index, 'parsed_address'] = utils.extract_street_name_and_number(row[address_column])
 
+if args.geocodes:
     # Use OSM to get the latitude and longitude of each of the addresses
     geolocator = Nominatim(user_agent='address_validator')
     for index, row in df.iterrows():
@@ -64,9 +72,10 @@ if args.excel:
 
         utils.random_delay(1, 3)
 
-        if args.dev and index == 3:
+        if args.dev and index == 5:
             break
 
+if args.excel:
     # Save the excel file
     df.to_excel(input_file, sheet_name=sheet_name, index=False, engine='openpyxl')
     print(f"The data has been saved to {input_file} in Excel format.")
