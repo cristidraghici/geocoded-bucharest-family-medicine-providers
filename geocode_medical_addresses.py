@@ -10,7 +10,7 @@ import json
 import utils
 
 # Script parameters
-source_file = './20230721_Lista cabinete medicina de familie _20.07.2023.xlsx'
+source_file = './20230721_Lista cabinete medicina de familie_20.07.2023.xlsx'
 sheet_name = 'Sheet1'
 address_column = 'Adresa punct de lucru'
 json_title_column = 'Nume medic de familie'
