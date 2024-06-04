@@ -16,6 +16,12 @@ address_column = 'Adresa punct de lucru'
 json_title_column = 'Nume medic de familie'
 destination_excel_file = 'input.xlsx'
 destination_json_file = 'output.json'
+coordinates_cache_json_file = 'coordinates_cache.json'
+addresses_cache_json_file = 'addresses_cache.json'
+
+# Initialize the cache dictionaries
+coordinates_cache = utils.load_cache(coordinates_cache_json_file)
+addresses_cache = utils.load_cache(addresses_cache_json_file)
 
 # Copy the source folder to the new destination where it will be processed
 source_directory = os.path.dirname(source_file)
@@ -28,6 +34,7 @@ parser.add_argument('--addresses', action='store_true', help='get the clean addr
 parser.add_argument('--geocodes', action='store_true', help='get the latitude and longitude where there are not set in the custom columns')
 parser.add_argument('--excel', action='store_true', help='save the data in the excel format')
 parser.add_argument('--json', action='store_true', help='save the data in json format')
+parser.add_argument('--cache', action='store_true', help='cache addresses and coordinates for use with the new versions of the list of family medicine offices')
 args = parser.parse_args()
 
 if not any(vars(args).values()):
@@ -35,8 +42,8 @@ if not any(vars(args).values()):
     sys.exit(0)
 
 # ensure we have a save function
-if not args.json and not args.excel:
-    print("No save function selected. Exiting...")
+if not args.json and not args.excel and not args.cache:
+    print("No save function selected. Cache not being used, either. Exiting...")
     sys.exit(0)
 
 if not os.path.exists(input_file):
@@ -61,7 +68,12 @@ if args.addresses:
             df.at[index, parsed_address] = street_name_and_number
 
             if pd.isna(row[manual_address]):
-                df.at[index, manual_address] = street_name_and_number
+                if args.cache and addresses_cache.get(street_name_and_number) is not None:
+                    df.at[index, manual_address] = addresses_cache[street_name_and_number]
+                else:
+                    df.at[index, manual_address] = street_name_and_number
+        if args.dev and index == 5:
+            break
 
 if args.geocodes:
     # Use OSM to get the latitude and longitude of each of the addresses
@@ -69,14 +81,20 @@ if args.geocodes:
     for index, row in df.iterrows():
         address = row[manual_address]
         if pd.isna(row['latitude']) or pd.isna(row['longitude']):
-            latitude, longitude = utils.validate_and_get_coordinates(geolocator, address)
+            
+            if args.cache and coordinates_cache.get(address) is not None:
+                current_coordinates = coordinates_cache[address]
+                df.at[index, 'latitude'] = current_coordinates['latitude']
+                df.at[index, 'longitude'] = current_coordinates['longitude']
+                print(f"Coordinates retrieved from cache for address at {index}: {address}")
+            else:
+                latitude, longitude = utils.validate_and_get_coordinates(geolocator, address)
+                utils.random_delay(1, 3)
 
-            if latitude is not None and longitude is not None:
-                df.at[index, 'latitude'] = latitude
-                df.at[index, 'longitude'] = longitude
-                print(f"Coordinates retrieved for address at {index}: {address}")
-
-        utils.random_delay(1, 3)
+                if latitude is not None and longitude is not None:
+                    df.at[index, 'latitude'] = latitude
+                    df.at[index, 'longitude'] = longitude
+                    print(f"Coordinates retrieved for address at {index}: {address}")
 
         if args.dev and index == 5:
             break
@@ -105,6 +123,9 @@ if args.json:
             "longitude": row['longitude']
         }
         json_entities.append(entity)
+        
+        if args.dev and index == 5:
+            break
 
     # Save the data as JSON
     output_file = destination_json_file
@@ -112,3 +133,21 @@ if args.json:
         json.dump(json_entities, f, indent=4)
 
     print(f"The filtered data has been saved to {output_file} in JSON format.")
+
+if args.cache:
+    for index, row in df.iterrows():
+        if pd.notna(row['latitude']) and pd.notna(row['longitude']):
+            address = row[manual_address]
+            coordinates_cache[address] = {
+                'latitude': row['latitude'],
+                'longitude': row['longitude']
+            }
+        if pd.notna(row[parsed_address]) and pd.notna(row[manual_address]):
+            addresses_cache[row[parsed_address]] = row[manual_address]
+
+        if args.dev and index == 5:
+            break
+    utils.save_cache(coordinates_cache_json_file, coordinates_cache)
+    utils.save_cache(addresses_cache_json_file, addresses_cache)
+
+    print(f"The cache has been saved in JSON format.")

@@ -4,6 +4,23 @@ import re
 from random import randint
 from time import sleep
 
+import json
+import os
+
+# A file based cache to store the coordinates
+def load_cache(cache_file):
+    if os.path.exists(cache_file):
+        with open(cache_file, 'r') as file:
+            return json.load(file)
+    else:
+        return {}
+
+def save_cache(cache_file, cache):
+    print(f"Saving cache to {cache_file} {len(cache)} entries...")
+
+    with open(cache_file, 'w') as file:
+        json.dump(cache, file)
+
 # Extract street and number from addresses
 def extract_street_name_and_number(address):
     # use alphanumeric characters
