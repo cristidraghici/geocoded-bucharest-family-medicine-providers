@@ -10,14 +10,14 @@ import json
 import utils
 
 # Script parameters
-source_file = './20230721_Lista cabinete medicina de familie_20.07.2023.xlsx'
+source_file = './20240401_Lista cabinete medicina de familie_01.04.2024.xls'
 sheet_name = 'Sheet1'
 address_column = 'Adresa punct de lucru'
 json_title_column = 'Nume medic de familie'
 destination_excel_file = 'input.xlsx'
 destination_json_file = 'output.json'
-coordinates_cache_json_file = 'coordinates_cache.json'
-addresses_cache_json_file = 'addresses_cache.json'
+coordinates_cache_json_file = '.cache/coordinates_cache.json'
+addresses_cache_json_file = '.cache/addresses_cache.json'
 
 # Initialize the cache dictionaries
 coordinates_cache = utils.load_cache(coordinates_cache_json_file)
@@ -117,12 +117,17 @@ if args.json:
     # Create JSON entities
     for index, row in filtered_df.iterrows():
         entity = {
-            "title": unidecode(row[json_title_column]),
-            "description": [f"{header}: {unidecode(row[header])}" for header in column_headers[0:] if header not in [json_title_column, parsed_address, manual_address, 'latitude', 'longitude']],
+            "title": unidecode(str(row[json_title_column])),
+            "description": [
+                f"{header}: {unidecode(str(row[header])) if isinstance(row[header], str) else row[header]}"
+                for header in column_headers[0:]
+                if header not in [json_title_column, parsed_address, manual_address, 'latitude', 'longitude']
+            ],
             "latitude": row['latitude'],
             "longitude": row['longitude']
         }
         json_entities.append(entity)
+
         
         if args.dev and index == 5:
             break

@@ -3,5 +3,3 @@
 .vscode
 
 __pycache__
-
-*_cache.json
