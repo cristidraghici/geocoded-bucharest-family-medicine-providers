@@ -1,6 +1,6 @@
 # geocoded-bucharest-family-medicine-providers
 
-> Family medicine in Bucharest on a map
+> The list of family medicine offices in Bucharest with approximate coordinates
 
 ## About
 
@@ -19,6 +19,10 @@ data = [
     ...
 ]
 ```
+
+### View on a map
+
+[https://cristidraghici.github.io/generic-map-with-pois/?api=https://cristidraghici.github.io/geocoded-bucharest-family-medicine-providers/output.json](https://cristidraghici.github.io/generic-map-with-pois/?api=https://cristidraghici.github.io/geocoded-bucharest-family-medicine-providers/output.json)
 
 ### Versions
 
@@ -39,8 +43,8 @@ This is a YOLO structure which has the purpose to maintain older versions in the
 .archive/
 |-- v1/
 | |-- 20230721_Lista cabinete medicina de familie_20.07.2023
-| |-- 20230721_input.xlsx
-| |-- 20230721_output.json
+| |-- input.xlsx
+| |-- output.json
 |-- v2/
 | |-- ...
 20240401_Lista cabinete medicina de familie_01.04.2024
@@ -61,7 +65,17 @@ These are some examples of how to run the script:
 - `python ./geocode_medical_addresses.py --addresses --geocodes --excel --json --cache`
 - `python ./geocode_medical_addresses.py --addresses --geocodes --excel --json --cache --dev`
 
-The source list for the family doctors is available here: [http://cas.cnas.ro/casmb/page/lista-cabinete-medicina-de-familie.html](http://cas.cnas.ro/casmb/page/lista-cabinete-medicina-de-familie.html). We usually download the list and then make a minimal cleanup in the file (remove the formatting, put the columns in the right order), then update the `./geocode_medical_addresses.py` file with the new filename for the source.
+### New data sources
+
+Main source:
+
+- [http://cas.cnas.ro/casmb/page/lista-cabinete-medicina-de-familie.html](http://cas.cnas.ro/casmb/page/lista-cabinete-medicina-de-familie.html)
+
+Here are some ideas about how to handle the newly downloaded files:
+
+- we keep the filename as close to the source as possible;
+- before starting, remember to create a release for the parser and also save the current output in the `./.archive` folder;
+- make a minimal cleanup in the file (remove the formatting, remove the headers form the file), using a previous source file as a model.
 
 ### Coordinates
 
