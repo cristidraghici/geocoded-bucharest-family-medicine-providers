@@ -69,7 +69,7 @@ These are some examples of how to run the script:
 
 Main source:
 
-- [http://cas.cnas.ro/casmb/page/lista-cabinete-medicina-de-familie.html](http://cas.cnas.ro/casmb/page/lista-cabinete-medicina-de-familie.html)
+- [https://www.casmb.ro/casmb_furniz_mf](https://www.casmb.ro/casmb_furniz_mf)
 
 Here are some ideas about how to handle the newly downloaded files:
 
@@ -83,3 +83,29 @@ We use OSM and Nominatim to get the coordinates for the address. In case an addr
 
 - [https://nominatim.openstreetmap.org/](https://nominatim.openstreetmap.org/)
 - [https://www.openstreetmap.org/#map=7/45.997/26.906](https://www.openstreetmap.org/#map=7/45.997/26.906)
+
+#### Interactive Geocoding
+
+For a more user-friendly way to update addresses and coordinates, use the interactive utility:
+
+```bash
+python3 interactive_geocode.py
+```
+
+This script will:
+- Show each address that's missing coordinates
+- Let you correct the address if needed
+- Automatically fetch coordinates
+- Update all rows with the same address at once
+
+Use the nominatim interface to find the right address string:
+
+- [https://nominatim.openstreetmap.org/](https://nominatim.openstreetmap.org/)
+
+#### Test the utils
+
+You can run the tests using `pytest`:
+
+```bash
+python3 /tests/test_utils.py
+```

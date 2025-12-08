@@ -7,8 +7,40 @@ from time import sleep
 import json
 import os
 
+# Pre-compiled regex patterns for better performance
+_CLEANUP_PATTERNS = [
+    # fix for number not separated - must be preceded by a letter to avoid matching standalone "nr"
+    (re.compile(r'([a-zA-Z])nr\b', re.I), r'\1, nr'),
+    
+    # text cleanup (ensure there is a space at the end of the replace string)
+    # Note: patterns consume trailing partial words to avoid duplication (e.g., "Bdul" -> "Bulevardul", not "Bulevardul ul")
+    (re.compile(r'\b(?:Numarul\.|Numarul|Nr\.|Nr)(?:ul)?\s*', re.I), 'Numarul '),
+    (re.compile(r'\b(?:Calea|Cal\.)(?:ea)?\s*', re.I), 'Calea '),
+    (re.compile(r'\b(?:Piata|Pta\.?)(?:ta)?\s*', re.I), 'Piata '),
+    (re.compile(r'\b(?:Drumul)(?:ul)?\s*', re.I), 'Drumul '),
+    (re.compile(r'\b(?:Strada|Str\.?|Stra\.)(?:ada)?\s*', re.I), 'Strada '),
+    (re.compile(r'\b(?:Bulevardul|Bulevard|Bd\.?|Bld\.?|Bdul\.?|B-dul)(?:ul)?\s*', re.I), 'Bulevardul '),
+    (re.compile(r'\b(?:Soseaua|Sos\.?)(?:aua)?\s*', re.I), 'Soseaua '),
+    (re.compile(r'\b(?:Splaiul|Spl\.?)(?:ul)?\s*', re.I), 'Splaiul '),
+    (re.compile(r'\b(?:Aleea|Al\.)(?:ea)?\s*', re.I), 'Aleea '),
+    (re.compile(r'\b(?:Intrarea|Intarea|Intr\.|Int\.)(?:area)?\s*', re.I), 'Intrarea '),
+    (re.compile(r'\b(?:Sector|Sect\.?)(?:or)?\s*', re.I), 'Sector ')
+]
+
+# Pre-compiled patterns for whitespace and comma cleanup
+_MULTIPLE_COMMAS = re.compile(r',{2,}')
+_MULTIPLE_SPACES = re.compile(r'\s{2,}')
+_SPACE_BEFORE_COMMA = re.compile(r'\s+,')
+_COMMA_SPACE = re.compile(r',\s+')
+
+# Pre-compiled patterns for street, number, and sector extraction
+_STREET_PATTERN = re.compile(r'(Calea|Piata|Drumul|Strada|Bulevardul|Soseaua|Splaiul|Aleea|Intrarea)\s+(.*?)(?:,|(?=\s*Numarul)|$)', re.I)
+_NUMBER_PATTERN = re.compile(r'Numarul\s+(.*?)(?:,|$)', re.I)
+_SECTOR_PATTERN = re.compile(r'Sector\s+(\d+)', re.I)
+
 # A file based cache to store the coordinates
 def load_cache(cache_file):
+    """Load cache from JSON file if it exists, otherwise return empty dict."""
     if os.path.exists(cache_file):
         with open(cache_file, 'r') as file:
             return json.load(file)
@@ -16,61 +48,56 @@ def load_cache(cache_file):
         return {}
 
 def save_cache(cache_file, cache):
+    """Save cache dictionary to JSON file."""
     print(f"Saving cache to {cache_file} {len(cache)} entries...")
-
     with open(cache_file, 'w') as file:
         json.dump(cache, file)
 
-# Extract street and number from addresses
 def extract_street_name_and_number(address):
-    # use alphanumeric characters
+    """
+    Extract and normalize street name, number, and sector from a Romanian address.
+    
+    Args:
+        address: Raw address string
+        
+    Returns:
+        Normalized address string in format "Street Type Street Name, Number, Sector X, Bucuresti"
+    """
+    # Convert to ASCII characters
     address = unidecode(address)
 
-    # ensure we have the proper prefix for the street
-    cleanupRegexList = [
-        # fix for number not separated 
-        ["nr", ", nr"],
+    # Apply all cleanup patterns
+    for pattern, replacement in _CLEANUP_PATTERNS:
+        address = pattern.sub(replacement, address)
 
-        # text cleanup (ensure there is a space at the end of the replace string)
-        [r"((?:Numarul\.|Numarul|Nr\.|Nr)\s|(?:Nr\.))", 'Numarul '],
-
-        [r"((?:Calea|Cal)\s|(?:Cal\.))", 'Calea'],
-        [r"((?:Calea|Cal)\s|(?:Cal\.))", 'Calea '],
-        [r"((?:Piata|Pta)\s|(?:Pta\.))", 'Piata '],
-        [r"((?:Drumul)\s)", 'Drumul '],
-        [r"((?:Strada|Str)\s|(?:Str\.|Stra\.))", 'Strada '],
-        [r"((?:Bulevardul|Bulevard|Bd|Bld|B-dul)\s|(?:Bd\.|Bld\.))", 'Bulevardul '],
-        [r"((?:Soseaua|Sos)\s|(?:Sos\.))", 'Soseaua '],
-        [r"((?:Splaiul|Spl)\s|(?:Spl\.))", 'Splaiul '],
-        [r"((?:Aleea)\s|(?:Al\.))", 'Aleea '],
-        [r"((?:Intarea|Int|Intr)\s|(?:Int\.|Intr\.))", 'Intrarea ']
-    ]
-
-    for regex in cleanupRegexList:
-        address = re.sub(regex[0], f'{regex[1]} ', address, flags=re.I)
-
-    # commas and spaces
-    while ",," in address:
-        address = re.sub(r",,", ",", address)
-    while "  " in address:
-        address = re.sub(r"  ", " ", address)
-    address = re.sub(r" ,", ",", address)
-    address = re.sub(r", ", ",", address)
+    # Clean up multiple spaces and commas
+    address = _MULTIPLE_COMMAS.sub(',', address)
+    address = _MULTIPLE_SPACES.sub(' ', address)
+    address = _SPACE_BEFORE_COMMA.sub(',', address)
+    address = _COMMA_SPACE.sub(',', address)
     
-    # get the street and number
+    # Extract street, number, and sector
     returnAddress = ''
 
-    streetMatch = re.match(r"(Calea|Piata|Drumul|Strada|Bulevardul|Soseaua|Splaiul|Aleea|Intrarea)(.*?)(?:,)", address)
-    if (streetMatch):
-        returnAddress = ''.join(streetMatch.group(1, 2))
+    streetMatch = _STREET_PATTERN.search(address)
+    if streetMatch:
+        returnAddress = (streetMatch.group(1) + ' ' + streetMatch.group(2)).strip()
 
-    numberMatch = re.search(r"(Numarul )(.*?)(?:,)", address)
-    if (numberMatch):
-        returnAddress = f"{returnAddress}, {numberMatch.group(2)}"
+    # Only extract number if we found a street
+    if returnAddress:
+        numberMatch = _NUMBER_PATTERN.search(address)
+        if numberMatch:
+            number = numberMatch.group(1).strip()
+            returnAddress = returnAddress + ', ' + number
+    
+    # Extract sector if present
+    sectorMatch = _SECTOR_PATTERN.search(address)
+    sector = ''
+    if sectorMatch:
+        sector = ', Sector ' + sectorMatch.group(1)
 
-    # return the parsed address
-    # TODO: we could add the sector to the address
-    return f"{returnAddress}, Bucuresti"
+    # Return the parsed address
+    return returnAddress + sector + ', Bucuresti' if returnAddress else ', Bucuresti'
 
 # Get coordinates using OSM
 def validate_and_get_coordinates(geolocator, address):

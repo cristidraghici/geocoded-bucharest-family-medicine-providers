@@ -10,7 +10,7 @@ import json
 import utils
 
 # Script parameters
-source_file = './20240401_Lista cabinete medicina de familie_01.04.2024.xls'
+source_file = './20250416_LISTA_FURNIZORI_DE_SERVICII_MEDICALE_MEDICINA_DE_FAMILIE_16.04.2025.xlsx'
 sheet_name = 'Sheet1'
 address_column = 'Adresa punct de lucru'
 json_title_column = 'Nume medic de familie'
@@ -37,6 +37,10 @@ parser.add_argument('--json', action='store_true', help='save the data in json f
 parser.add_argument('--cache', action='store_true', help='cache addresses and coordinates for use with the new versions of the list of family medicine offices')
 args = parser.parse_args()
 
+# Check for dependencies
+if args.geocodes:
+    args.addresses = True
+
 if not any(vars(args).values()):
     parser.print_help()
     sys.exit(0)
@@ -47,6 +51,8 @@ if not args.json and not args.excel and not args.cache:
     sys.exit(0)
 
 if not os.path.exists(input_file):
+    # if os.path.exists(input_file):
+    #     os.remove(input_file)
     shutil.copy(source_file, input_file)
     print('Input file created')
 
@@ -72,12 +78,12 @@ if args.addresses:
                     df.at[index, manual_address] = addresses_cache[street_name_and_number]
                 else:
                     df.at[index, manual_address] = street_name_and_number
-        if args.dev and index == 5:
+        if args.dev and index == 4:
             break
 
 if args.geocodes:
     # Use OSM to get the latitude and longitude of each of the addresses
-    geolocator = Nominatim(user_agent='address_validator')
+    geolocator = Nominatim(user_agent='bucharest_family_medicine_geocoder')
     for index, row in df.iterrows():
         address = row[manual_address]
         if pd.isna(row['latitude']) or pd.isna(row['longitude']):
